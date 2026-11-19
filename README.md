@@ -21,124 +21,45 @@ Agentic City is the planning platform behind the **Agentic City Global Challenge
 
 Two films, cut into chapters. Every clip plays inline — pick the question you care about.
 
-If a player sits at 0:00, hard-refresh the page (⌘⇧R / Ctrl+F5): GitHub caches rendered READMEs. Every clip is also listed in [issue #1](https://github.com/Planet-300894/Agentic-City/issues/1).
+If a player sits at 0:00, hard-refresh the page (⌘⇧R / Ctrl+F5). Every clip is also listed in [issue #1](https://github.com/Planet-300894/Agentic-City/issues/1).
 
 ### System introduction · 10 chapters · 3:20
 
-#### 1-01 · What Agentic City is · 14s
-
-https://github.com/user-attachments/assets/ded8ed8c-3212-46cf-bd18-8275794b2629
-
-#### 1-02 · The planning area and its baseline · 25s
-
-https://github.com/user-attachments/assets/6ef553c3-e635-4c7a-a720-efbef2c6409b
-
-#### 1-03 · The 2D map: uses, limits, buildable land · 23s
-
-https://github.com/user-attachments/assets/3cd989f6-6122-4a4d-be83-97543766e252
-
-#### 1-05 · The 3D city, in sync with the plan · 21s
-
-https://github.com/user-attachments/assets/2dbbbefb-eeb0-4987-a8ed-ac5235e55dbf
-
-#### 1-06 · The planning assistant · 20s
-
-https://github.com/user-attachments/assets/57fd1574-6344-4273-bbce-39d6ee19b159
-
-#### 1-07 · Spending needs approval · 18s
-
-https://github.com/user-attachments/assets/124c3349-551d-436c-bb9c-53f6156b3dae
-
-#### 1-08 · The policy workspace · 18s
-
-https://github.com/user-attachments/assets/2bdca1f1-b9a1-4977-b794-dfca78e90184
-
-#### 1-09 · Seven assessment groups · 26s
-
-https://github.com/user-attachments/assets/9cf7e4fd-f529-4b61-ab66-7492f9098270
-
-#### 1-10 · Model settings: bring your own agent · 21s
-
-https://github.com/user-attachments/assets/2d53bf7f-ccaf-4aae-8a2d-1439da6d6866
-
-#### 1-11 · What the platform connects · 14s
-
-https://github.com/user-attachments/assets/fdcd4398-cdf5-4398-82ee-fbd42b7fdfba
+|  |  |
+|---|---|
+| https://github.com/user-attachments/assets/ded8ed8c-3212-46cf-bd18-8275794b2629 | https://github.com/user-attachments/assets/6ef553c3-e635-4c7a-a720-efbef2c6409b |
+| **1-01** · What Agentic City is · 14s | **1-02** · The planning area and its baseline · 25s |
+| https://github.com/user-attachments/assets/3cd989f6-6122-4a4d-be83-97543766e252 | https://github.com/user-attachments/assets/2dbbbefb-eeb0-4987-a8ed-ac5235e55dbf |
+| **1-03** · The 2D map: uses, limits, buildable land · 23s | **1-05** · The 3D city, in sync with the plan · 21s |
+| https://github.com/user-attachments/assets/57fd1574-6344-4273-bbce-39d6ee19b159 | https://github.com/user-attachments/assets/124c3349-551d-436c-bb9c-53f6156b3dae |
+| **1-06** · The planning assistant · 20s | **1-07** · Spending needs approval · 18s |
+| https://github.com/user-attachments/assets/2bdca1f1-b9a1-4977-b794-dfca78e90184 | https://github.com/user-attachments/assets/9cf7e4fd-f529-4b61-ab66-7492f9098270 |
+| **1-08** · The policy workspace · 18s | **1-09** · Seven assessment groups · 26s |
+| https://github.com/user-attachments/assets/2d53bf7f-ccaf-4aae-8a2d-1439da6d6866 | https://github.com/user-attachments/assets/fdcd4398-cdf5-4398-82ee-fbd42b7fdfba |
+| **1-10** · Model settings: bring your own agent · 21s | **1-11** · What the platform connects · 14s |
 
 ### Competition workflow · 18 chapters · 5:47
 
-#### 2-01 · The 2035 challenge · 22s
-
-https://github.com/user-attachments/assets/d7d17ee5-c8a5-4a43-9e4d-c4281c0c76f1
-
-#### 2-02 · Read the brief, set objectives · 19s
-
-https://github.com/user-attachments/assets/05b271d1-22c8-4a5c-870c-7fdc3acaf1d6
-
-#### 2-03 · Fire station siting and cost · 27s
-
-https://github.com/user-attachments/assets/e35b8ee5-d53e-48d8-8995-663f57d42597
-
-#### 2-04 · Self-assessment: 4.92 min · 15s
-
-https://github.com/user-attachments/assets/0163afd4-1691-4b67-a14e-2e3e63568382
-
-#### 2-05 · A new road: 3.44 min · 19s
-
-https://github.com/user-attachments/assets/fbaea29a-2e6e-47b3-8e72-b945203182eb
-
-#### 2-06 · Choosing a residential site · 18s
-
-https://github.com/user-attachments/assets/e8ced3fb-a728-4e58-b5fc-99380aa974e7
-
-#### 2-07 · Demolition and pond filling · 22s
-
-https://github.com/user-attachments/assets/94178e65-3f53-4a41-b99b-be9c47dc97a0
-
-#### 2-08 · Six blocks, 46,576 residents · 24s
-
-https://github.com/user-attachments/assets/b0e7aa94-b2c4-4dbd-84d8-7d1634c60ada
-
-#### 2-09 · Supporting policies · 17s
-
-https://github.com/user-attachments/assets/35b2c12d-f6bf-4442-ab89-5db7aea21527
-
-#### 2-10 · The other assessment dimensions · 18s
-
-https://github.com/user-attachments/assets/bed2ee5c-1f4b-402c-9430-7cb129343e2c
-
-#### 2-11 · Self-check before submission · 18s
-
-https://github.com/user-attachments/assets/f472235c-ed1d-4a44-925c-3be4b6e62775
-
-#### 2-12 · Submission: the spatial package · 30s
-
-https://github.com/user-attachments/assets/673028df-ec84-4053-b17c-e6459f4d4e6a
-
-#### 2-13 · Submission: the policy file · 16s
-
-https://github.com/user-attachments/assets/2f830640-11d7-41ae-83ef-c408755e785a
-
-#### 2-14 · Committee validation · 15s
-
-https://github.com/user-attachments/assets/cdf07d23-b10a-48bb-9915-57716eced035
-
-#### 2-15 · Introducing the Economic World Model · 12s
-
-https://github.com/user-attachments/assets/42312dd2-1b4a-4ca3-b07c-c57defa2fa82
-
-#### 2-16 · The plan becomes an environment · 23s
-
-https://github.com/user-attachments/assets/55df9a5b-fb8e-42fa-97b4-afc0586e88ec
-
-#### 2-17 · How space and policy shape choices · 24s
-
-https://github.com/user-attachments/assets/60d171ea-dee7-4e62-9392-2ab9be6a8fc6
-
-#### 2-18 · What the competition looks for · 12s
-
-https://github.com/user-attachments/assets/39c98a2f-54e5-4d3b-9f77-744648a8e9d4
-## What the demonstration establishes
+|  |  |
+|---|---|
+| https://github.com/user-attachments/assets/d7d17ee5-c8a5-4a43-9e4d-c4281c0c76f1 | https://github.com/user-attachments/assets/05b271d1-22c8-4a5c-870c-7fdc3acaf1d6 |
+| **2-01** · The 2035 challenge · 22s | **2-02** · Read the brief, set objectives · 19s |
+| https://github.com/user-attachments/assets/e35b8ee5-d53e-48d8-8995-663f57d42597 | https://github.com/user-attachments/assets/0163afd4-1691-4b67-a14e-2e3e63568382 |
+| **2-03** · Fire station siting and cost · 27s | **2-04** · Self-assessment: 4.92 min · 15s |
+| https://github.com/user-attachments/assets/fbaea29a-2e6e-47b3-8e72-b945203182eb | https://github.com/user-attachments/assets/e8ced3fb-a728-4e58-b5fc-99380aa974e7 |
+| **2-05** · A new road: 3.44 min · 19s | **2-06** · Choosing a residential site · 18s |
+| https://github.com/user-attachments/assets/94178e65-3f53-4a41-b99b-be9c47dc97a0 | https://github.com/user-attachments/assets/b0e7aa94-b2c4-4dbd-84d8-7d1634c60ada |
+| **2-07** · Demolition and pond filling · 22s | **2-08** · Six blocks, 46,576 residents · 24s |
+| https://github.com/user-attachments/assets/35b2c12d-f6bf-4442-ab89-5db7aea21527 | https://github.com/user-attachments/assets/bed2ee5c-1f4b-402c-9430-7cb129343e2c |
+| **2-09** · Supporting policies · 17s | **2-10** · The other assessment dimensions · 18s |
+| https://github.com/user-attachments/assets/f472235c-ed1d-4a44-925c-3be4b6e62775 | https://github.com/user-attachments/assets/673028df-ec84-4053-b17c-e6459f4d4e6a |
+| **2-11** · Self-check before submission · 18s | **2-12** · Submission: the spatial package · 30s |
+| https://github.com/user-attachments/assets/2f830640-11d7-41ae-83ef-c408755e785a | https://github.com/user-attachments/assets/cdf07d23-b10a-48bb-9915-57716eced035 |
+| **2-13** · Submission: the policy file · 16s | **2-14** · Committee validation · 15s |
+| https://github.com/user-attachments/assets/42312dd2-1b4a-4ca3-b07c-c57defa2fa82 | https://github.com/user-attachments/assets/55df9a5b-fb8e-42fa-97b4-afc0586e88ec |
+| **2-15** · Introducing the Economic World Model · 12s | **2-16** · The plan becomes an environment · 23s |
+| https://github.com/user-attachments/assets/60d171ea-dee7-4e62-9392-2ab9be6a8fc6 | https://github.com/user-attachments/assets/39c98a2f-54e5-4d3b-9f77-744648a8e9d4 |
+| **2-17** · How space and policy shape choices · 24s | **2-18** · What the competition looks for · 12s |## What the demonstration establishes
 
 | Scenario | What the participant does | What the city answers |
 |---|---|---|
@@ -202,7 +123,7 @@ The chapter clips are hosted as GitHub attachments in [issue #1](https://github.
 
 ## Credits
 
-Part of the **Agentic City Global Challenge** for Hong Kong's Northern Metropolis, organised by Shenzhen He Tao College and The Chinese University of Hong Kong, Shenzhen, with the Shenzhen Big Data Research Institute as technical partner.
+Part of the **Agentic City Global Challenge** for Hong Kong's Northern Metropolis, organised by Shenzhen Loop Area Institute and The Chinese University of Hong Kong, Shenzhen, with the Shenzhen Big Data Research Institute as technical partner.
 
 City model compiled from official Hong Kong mapping and water data (iB1000), OpenStreetMap road and transit networks, and public building and land-use records.
 
