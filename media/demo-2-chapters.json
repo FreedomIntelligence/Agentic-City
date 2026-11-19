@@ -1,0 +1,110 @@
+[
+  {
+    "scene": "2-01",
+    "start_seconds": 0,
+    "duration_seconds": 21.54,
+    "narration": "The Agentic City Global Challenge invites participants to propose a comprehensive plan for Hong Kong's Northern Metropolis in twenty thirty-five. The competition looks beyond the number of buildings constructed. It asks whether spatial design, public services and policy can work together to support a functioning city."
+  },
+  {
+    "scene": "2-02",
+    "start_seconds": 21.54,
+    "duration_seconds": 18.46,
+    "narration": "Start by reading the competition materials. Understand the planning boundary, land uses, operational constraints and budget requirements, and define your objectives. Then use your model or agent framework to work with the planning system on both the spatial proposal and its policies."
+  },
+  {
+    "scene": "2-03",
+    "start_seconds": 40.0,
+    "duration_seconds": 27.21,
+    "narration": "Let's look at two examples: fire services and residential development. In the fire-services case, the participant specifies three eligible areas for new stations. The assistant develops a layout based on buildable land and nearby roads, and presents the construction costs. Once the participant approves it, the stations are built. The two-dimensional records and three-dimensional city update together."
+  },
+  {
+    "scene": "2-04",
+    "start_seconds": 67.21,
+    "duration_seconds": 14.5,
+    "narration": "Participants can then run a self-assessment. In this example, the system assigns three buildings as fire incidents. The average driving time from the stations to those locations is four point nine two minutes."
+  },
+  {
+    "scene": "2-05",
+    "start_seconds": 81.71,
+    "duration_seconds": 18.88,
+    "narration": "To improve access where road connections are limited, the participant proposes an additional road link. After the road is approved and built, the same incident locations are assessed again. Average driving time falls to three point four four minutes, a reduction of about thirty percent."
+  },
+  {
+    "scene": "2-06",
+    "start_seconds": 100.59,
+    "duration_seconds": 18.17,
+    "narration": "Residential development starts with an area chosen by the participant. Here, the participant wants to create a residential neighbourhood in zone Z six, one hundred and eight. The selected site includes a pond, and an existing building must be removed before the pond can be filled."
+  },
+  {
+    "scene": "2-07",
+    "start_seconds": 118.76,
+    "duration_seconds": 22.33,
+    "narration": "Through the conversation, the participant first requests demolition of building two nine five four seven nine, then asks to fill pond one one zero five nine seven nine two zero five. The system presents the scope and cost of each operation separately. Once approved, each operation is carried out and both map views are updated."
+  },
+  {
+    "scene": "2-08",
+    "start_seconds": 141.09,
+    "duration_seconds": 23.92,
+    "narration": "With the land prepared, the participant requests six residential blocks. The assistant generates their layout and building attributes. After the proposal and construction costs are approved, the homes are built. The capacity assessment shows room for six hundred and sixty additional residents, bringing the city total to forty-six thousand, five hundred and seventy-six."
+  },
+  {
+    "scene": "2-09",
+    "start_seconds": 165.01,
+    "duration_seconds": 16.58,
+    "narration": "Participants also need supporting policies. Who will the new homes serve? Will housing support be offered, how many households will it cover, and for how long? Policies should be consistent with the planning objectives, available facilities and budget."
+  },
+  {
+    "scene": "2-10",
+    "start_seconds": 181.59,
+    "duration_seconds": 17.75,
+    "narration": "Fire stations and housing are just two examples. A complete entry also considers travel, business locations, education and healthcare, environmental sustainability, disaster response, employment and the economy, and exchange between Hong Kong and Shenzhen."
+  },
+  {
+    "scene": "2-11",
+    "start_seconds": 199.34,
+    "duration_seconds": 17.5,
+    "narration": "Before submission, participants can use the available assessment scenarios to check capacity, travel efficiency, service provision and costs. Self-assessment helps you understand your plan's performance. Final scores are determined by the committee under common competition rules."
+  },
+  {
+    "scene": "2-12",
+    "start_seconds": 216.84,
+    "duration_seconds": 29.92,
+    "narration": "There are two submission components. The first is the spatial plan ZIP package. It contains a manifest describing the data version, coordinate system, planning boundary and other metadata; a GeoPackage recording planning zones, buildings and transport objects; and a three-D directory containing the corresponding three-D Tiles. Spatial records and three-dimensional objects must use consistent identifiers and accurately represent the submitted plan."
+  },
+  {
+    "scene": "2-13",
+    "start_seconds": 246.76,
+    "duration_seconds": 15.67,
+    "narration": "The second component is the policy YAML file. It specifies policy objectives, eligible groups, implementation areas, funding and duration, so that policies can be interpreted, applied and assessed together with the spatial plan."
+  },
+  {
+    "scene": "2-14",
+    "start_seconds": 262.43,
+    "duration_seconds": 14.46,
+    "narration": "After submission, the committee first checks file formats, object consistency, planning constraints and budget compliance. It then evaluates the proposal further under common assessment conditions."
+  },
+  {
+    "scene": "2-15",
+    "start_seconds": 276.89,
+    "duration_seconds": 11.79,
+    "narration": "For the stronger city planning entries, the committee will go further, using the Economic World Model as the underlying engine for comprehensive multi-agent social simulation."
+  },
+  {
+    "scene": "2-16",
+    "start_seconds": 288.68,
+    "duration_seconds": 22.67,
+    "narration": "At this stage, the proposed plan becomes a functioning city environment. Agents represent households, residents, businesses and service organisations with different needs, resources and behavioural characteristics. They choose where to live, look for work, arrange journeys, use public services, and take part in production and consumption."
+  },
+  {
+    "scene": "2-17",
+    "start_seconds": 311.35,
+    "duration_seconds": 23.96,
+    "narration": "The submitted spatial layout and policies jointly shape those choices. Housing locations and costs affect where people settle. Transport connections affect access to jobs and services. Business locations shape employment and economic activity. Policies change the opportunities, costs and incentives facing different groups."
+  },
+  {
+    "scene": "2-18",
+    "start_seconds": 335.31,
+    "duration_seconds": 11.88,
+    "narration": "The competition is looking for plans that make sense on the map, and can also support strong social and economic outcomes as residents, businesses and public institutions interact within the city."
+  }
+]

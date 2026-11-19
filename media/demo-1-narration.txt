@@ -1,0 +1,19 @@
+Welcome to Agentic City, a city planning system for Hong Kong's Northern Metropolis. It brings city information, spatial planning, collaboration with agents, and plan assessment together in one workspace.
+
+The current map centres on the Lok Ma Chau Loop, San Tin and Ngau Tam Mei, and includes parts of Mai Po and Fairview Park. It covers about twenty-four point three square kilometres, divided into two hundred and eighty-nine planning zones. Twenty thousand, nine hundred and twenty-four existing buildings, together with roads, water and land-use records, provide a shared starting point for participants.
+
+The two-dimensional map brings together city records, planning constraints and transport connections. Search an area to check land uses, permitted facilities and restrictions on demolition or pond filling. Green areas show buildable land. The network connects building locations and supports walking, cycling, driving and public transport analysis.
+
+The three-dimensional view below shows the existing city and the spatial effects of your plan. New buildings, demolitions and road changes stay in sync with the two-dimensional records. Explore different views to understand building scale, surrounding conditions and transport connections, and see how your proposals change the city.
+
+The planning assistant lets you work with the city through natural language. Describe a planning goal, specify an area, set building requirements, or ask about city records and planning restrictions. The assistant brings this information together and turns your intentions into a concrete proposal for review.
+
+When an operation involves spending, the system presents the proposed work and its cost for approval before carrying it out. Construction, demolition, land preparation and policy commitments all draw on the same budget, making the resource implications of each decision clear.
+
+City planning goes beyond buildings and roads. In the Policy workspace, define a policy's objectives, eligible groups, geographic scope, funding and duration. This allows housing, employment and public-service policies to work alongside the spatial plan.
+
+Assessment is organised into seven groups: housing and city capacity; mobility and accessibility; public-service capacity; safety and resilience; environment and climate; economy and employment; and exchange between Hong Kong and Shenzhen. Use the evaluation interface or ask the planning assistant to review the relevant indicators and scenario assumptions.
+
+In Model settings, configure your service URL and model name to bring your own model or agent framework into the planning workflow. City records, planning constraints and assessment methods provide the assistant's working context, supporting its understanding of tasks, development of proposals and use of tools.
+
+Agentic City connects city information, planning actions and spatial outcomes. It gives participants one environment in which to explore the city, develop a plan, check its performance and present their proposals.

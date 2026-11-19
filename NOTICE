@@ -1,0 +1,27 @@
+Agentic City 2035
+Copyright (c) 2026 Jing Qian. All rights reserved.
+
+This repository is published for demonstration and evaluation purposes only.
+
+It shows what the Agentic City planning platform does: the interface, the
+planning workflow, the assessment framework and the competition process, through
+documentation and screen recordings.
+
+No licence is granted to copy, modify, redistribute, sublicense or use the
+materials in this repository, in whole or in part, for any purpose. In
+particular:
+
+- The video clips are recordings of a proprietary system. They may be viewed
+  through GitHub, but may not be re-uploaded, re-edited, or presented as another
+  project's work.
+- The documentation describes an internal design. It may be cited with
+  attribution, but not reproduced as a specification.
+- The city model, the compiled dataset and the source code of the platform are
+  not included in this repository and remain confidential.
+
+Requests for access, collaboration or evaluation materials should be directed to
+the repository owner.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.

@@ -1,0 +1,259 @@
+1
+00:00:00,000 --> 00:00:05,963
+The Agentic City Global Challenge invites participants to propose a comprehensive plan for
+
+2
+00:00:05,963 --> 00:00:11,926
+Hong Kong's Northern Metropolis in twenty thirty-five. The competition looks beyond the number
+
+3
+00:00:11,926 --> 00:00:17,889
+of buildings constructed. It asks whether spatial design, public services and policy can
+
+4
+00:00:17,889 --> 00:00:21,100
+work together to support a functioning city.
+
+5
+00:00:21,540 --> 00:00:27,111
+Start by reading the competition materials. Understand the planning boundary, land uses, operational
+
+6
+00:00:27,111 --> 00:00:32,683
+constraints and budget requirements, and define your objectives. Then use your model or
+
+7
+00:00:32,683 --> 00:00:38,254
+agent framework to work with the planning system on both the spatial proposal
+
+8
+00:00:38,254 --> 00:00:39,540
+and its policies.
+
+9
+00:00:40,000 --> 00:00:46,103
+Let's look at two examples: fire services and residential development. In the fire-services
+
+10
+00:00:46,103 --> 00:00:52,206
+case, the participant specifies three eligible areas for new stations. The assistant develops
+
+11
+00:00:52,206 --> 00:00:58,309
+a layout based on buildable land and nearby roads, and presents the construction
+
+12
+00:00:58,309 --> 00:01:04,413
+costs. Once the participant approves it, the stations are built. The two-dimensional records
+
+13
+00:01:04,413 --> 00:01:06,760
+and three-dimensional city update together.
+
+14
+00:01:07,210 --> 00:01:12,749
+Participants can then run a self-assessment. In this example, the system assigns three
+
+15
+00:01:12,749 --> 00:01:18,288
+buildings as fire incidents. The average driving time from the stations to those
+
+16
+00:01:18,288 --> 00:01:21,270
+locations is four point nine two minutes.
+
+17
+00:01:21,710 --> 00:01:27,034
+To improve access where road connections are limited, the participant proposes an additional
+
+18
+00:01:27,034 --> 00:01:32,358
+road link. After the road is approved and built, the same incident locations
+
+19
+00:01:32,358 --> 00:01:37,683
+are assessed again. Average driving time falls to three point four four minutes,
+
+20
+00:01:37,683 --> 00:01:40,140
+a reduction of about thirty percent.
+
+21
+00:01:40,590 --> 00:01:45,595
+Residential development starts with an area chosen by the participant. Here, the participant
+
+22
+00:01:45,595 --> 00:01:50,600
+wants to create a residential neighbourhood in zone Z six, one hundred and
+
+23
+00:01:50,600 --> 00:01:55,605
+eight. The selected site includes a pond, and an existing building must be
+
+24
+00:01:55,605 --> 00:01:58,300
+removed before the pond can be filled.
+
+25
+00:02:03,934 --> 00:02:09,108
+four seven nine, then asks to fill pond one one zero five nine
+
+26
+00:02:09,108 --> 00:02:14,282
+seven nine two zero five. The system presents the scope and cost of
+
+27
+00:02:14,282 --> 00:02:19,456
+each operation separately. Once approved, each operation is carried out and both map
+
+28
+00:02:19,456 --> 00:02:20,650
+views are updated.
+
+29
+00:02:21,090 --> 00:02:26,847
+With the land prepared, the participant requests six residential blocks. The assistant generates
+
+30
+00:02:26,847 --> 00:02:32,604
+their layout and building attributes. After the proposal and construction costs are approved,
+
+31
+00:02:32,604 --> 00:02:38,360
+the homes are built. The capacity assessment shows room for six hundred and
+
+32
+00:02:38,360 --> 00:02:44,117
+sixty additional residents, bringing the city total to forty-six thousand, five hundred and
+
+33
+00:02:44,117 --> 00:02:44,560
+seventy-six.
+
+34
+00:02:45,010 --> 00:02:50,535
+Participants also need supporting policies. Who will the new homes serve? Will housing
+
+35
+00:02:50,535 --> 00:02:56,060
+support be offered, how many households will it cover, and for how long?
+
+36
+00:02:56,060 --> 00:03:01,160
+Policies should be consistent with the planning objectives, available facilities and budget.
+
+37
+00:03:01,590 --> 00:03:08,205
+Fire stations and housing are just two examples. A complete entry also considers
+
+38
+00:03:08,205 --> 00:03:14,819
+travel, business locations, education and healthcare, environmental sustainability, disaster response, employment and the
+
+39
+00:03:14,819 --> 00:03:18,890
+economy, and exchange between Hong Kong and Shenzhen.
+
+40
+00:03:19,340 --> 00:03:25,501
+Before submission, participants can use the available assessment scenarios to check capacity, travel
+
+41
+00:03:25,501 --> 00:03:31,661
+efficiency, service provision and costs. Self-assessment helps you understand your plan's performance. Final
+
+42
+00:03:31,661 --> 00:03:36,400
+scores are determined by the committee under common competition rules.
+
+43
+00:03:36,840 --> 00:03:43,116
+There are two submission components. The first is the spatial plan ZIP package.
+
+44
+00:03:43,116 --> 00:03:49,392
+It contains a manifest describing the data version, coordinate system, planning boundary and
+
+45
+00:03:49,392 --> 00:03:55,669
+other metadata; a GeoPackage recording planning zones, buildings and transport objects; and a
+
+46
+00:03:55,669 --> 00:04:01,945
+three-D directory containing the corresponding three-D Tiles. Spatial records and three-dimensional objects must
+
+47
+00:04:01,945 --> 00:04:06,290
+use consistent identifiers and accurately represent the submitted plan.
+
+48
+00:04:06,760 --> 00:04:12,756
+The second component is the policy YAML file. It specifies policy objectives, eligible
+
+49
+00:04:12,756 --> 00:04:18,752
+groups, implementation areas, funding and duration, so that policies can be interpreted, applied
+
+50
+00:04:18,752 --> 00:04:21,980
+and assessed together with the spatial plan.
+
+51
+00:04:22,430 --> 00:04:29,720
+After submission, the committee first checks file formats, object consistency, planning constraints and
+
+52
+00:04:29,720 --> 00:04:36,450
+budget compliance. It then evaluates the proposal further under common assessment conditions.
+
+53
+00:04:36,890 --> 00:04:42,782
+For the stronger city planning entries, the committee will go further, using the
+
+54
+00:04:42,782 --> 00:04:48,220
+Economic World Model as the underlying engine for comprehensive multi-agent social simulation.
+
+55
+00:04:48,680 --> 00:04:54,954
+At this stage, the proposed plan becomes a functioning city environment. Agents represent
+
+56
+00:04:54,954 --> 00:05:01,228
+households, residents, businesses and service organisations with different needs, resources and behavioural characteristics.
+
+57
+00:05:01,228 --> 00:05:07,502
+They choose where to live, look for work, arrange journeys, use public services,
+
+58
+00:05:07,502 --> 00:05:10,880
+and take part in production and consumption.
+
+59
+00:05:11,350 --> 00:05:18,461
+The submitted spatial layout and policies jointly shape those choices. Housing locations and
+
+60
+00:05:18,461 --> 00:05:25,571
+costs affect where people settle. Transport connections affect access to jobs and services.
+
+61
+00:05:25,571 --> 00:05:32,682
+Business locations shape employment and economic activity. Policies change the opportunities, costs and
+
+62
+00:05:32,682 --> 00:05:34,870
+incentives facing different groups.
+
+63
+00:05:35,310 --> 00:05:40,099
+The competition is looking for plans that make sense on the map, and
+
+64
+00:05:40,099 --> 00:05:44,888
+can also support strong social and economic outcomes as residents, businesses and public
+
+65
+00:05:44,888 --> 00:05:46,730
+institutions interact within the city.

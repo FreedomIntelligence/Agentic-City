@@ -1,0 +1,28 @@
+# Generated city data, bundles and archives
+build/
+shared-data/
+*.zip
+
+# Films are distributed as release assets, never as repository content
+*.mp4
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local runtime state — drafts are participant work and must never be published
+drafts/
+stage6/drafts/
+replay-cache/
+studio-cache/
+*.tmp
+*.log
+
+# Operating system and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
