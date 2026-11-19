@@ -21,7 +21,7 @@ Agentic City 是 **Agentic City 全球挑战赛**的规划平台。参赛者以"
 
 两部影片按章节切开，每段都在页面内直接播放——挑你关心的问题看。
 
-如果某个播放器停在 0:00，请强制刷新（⌘⇧R / Ctrl+F5）。28 段片段也全部列在 [issue #1](https://github.com/Planet-300894/Agentic-City/issues/1)。
+如果某个播放器停在 0:00，请强制刷新（⌘⇧R / Ctrl+F5）。28 段片段也全部列在 [issue #1](../../issues/1)。
 
 ### 系统介绍 · 10 章 · 3:20
 
@@ -119,7 +119,7 @@ flowchart LR
 └── media/                 海报、讲稿、字幕、章节时间轴
 ```
 
-章节片段托管在 [issue #1](https://github.com/Planet-300894/Agentic-City/issues/1) 的附件中。删除该 issue 会导致上面所有播放器失效。
+章节片段托管在 [issue #1](../../issues/1) 的附件中。删除该 issue 会导致上面所有播放器失效。
 
 ## 致谢
 
