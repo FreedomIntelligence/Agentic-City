@@ -21,126 +21,123 @@ Agentic City 是 **Agentic City 全球挑战赛**的规划平台。参赛者以"
 
 两部影片按章节切开，每段都在页面内直接播放——挑你关心的问题看。
 
-如果某个播放器停在 0:00，请强制刷新（⌘⇧R / Ctrl+F5）：GitHub 会缓存 README 的渲染结果，旧缓存指向的视频地址可能已经失效。28 段片段也全部列在 [issue #1](https://github.com/Planet-300894/Agentic-City/issues/1)，在那里可以直接逐个打开。
-
-### 参赛流程 · 18 章 · 5:47
-
-#### 2-01 · 2035 年的赛题 · 22s
-
-<video src="https://github.com/user-attachments/assets/d7d17ee5-c8a5-4a43-9e4d-c4281c0c76f1" controls></video>
-
-#### 2-02 · 读材料、定目标 · 19s
-
-<video src="https://github.com/user-attachments/assets/05b271d1-22c8-4a5c-870c-7fdc3acaf1d6" controls></video>
-
-#### 2-03 · 消防站选址与造价 · 27s
-
-<video src="https://github.com/user-attachments/assets/e35b8ee5-d53e-48d8-8995-663f57d42597" controls></video>
-
-#### 2-04 · 自评：4.92 分钟 · 15s
-
-<video src="https://github.com/user-attachments/assets/0163afd4-1691-4b67-a14e-2e3e63568382" controls></video>
-
-#### 2-05 · 增修道路：3.44 分钟 · 19s
-
-<video src="https://github.com/user-attachments/assets/fbaea29a-2e6e-47b3-8e72-b945203182eb" controls></video>
-
-#### 2-06 · 住宅选址 · 18s
-
-<video src="https://github.com/user-attachments/assets/e8ced3fb-a728-4e58-b5fc-99380aa974e7" controls></video>
-
-#### 2-07 · 拆迁与填塘 · 22s
-
-<video src="https://github.com/user-attachments/assets/94178e65-3f53-4a41-b99b-be9c47dc97a0" controls></video>
-
-#### 2-08 · 六栋住宅，46,576 人 · 24s
-
-<video src="https://github.com/user-attachments/assets/b0e7aa94-b2c4-4dbd-84d8-7d1634c60ada" controls></video>
-
-#### 2-09 · 配套政策 · 17s
-
-<video src="https://github.com/user-attachments/assets/35b2c12d-f6bf-4442-ab89-5db7aea21527" controls></video>
-
-#### 2-10 · 其他评估维度 · 18s
-
-<video src="https://github.com/user-attachments/assets/bed2ee5c-1f4b-402c-9430-7cb129343e2c" controls></video>
-
-#### 2-11 · 提交前自检 · 18s
-
-<video src="https://github.com/user-attachments/assets/f472235c-ed1d-4a44-925c-3be4b6e62775" controls></video>
-
-#### 2-12 · 提交物：空间包 · 30s
-
-<video src="https://github.com/user-attachments/assets/673028df-ec84-4053-b17c-e6459f4d4e6a" controls></video>
-
-#### 2-13 · 提交物：政策文件 · 16s
-
-<video src="https://github.com/user-attachments/assets/2f830640-11d7-41ae-83ef-c408755e785a" controls></video>
-
-#### 2-14 · 组委会校验 · 15s
-
-<video src="https://github.com/user-attachments/assets/cdf07d23-b10a-48bb-9915-57716eced035" controls></video>
-
-#### 2-15 · 引入经济世界模型 · 12s
-
-<video src="https://github.com/user-attachments/assets/42312dd2-1b4a-4ca3-b07c-c57defa2fa82" controls></video>
-
-#### 2-16 · 方案变成可运行环境 · 23s
-
-<video src="https://github.com/user-attachments/assets/55df9a5b-fb8e-42fa-97b4-afc0586e88ec" controls></video>
-
-#### 2-17 · 空间与政策如何塑造选择 · 24s
-
-<video src="https://github.com/user-attachments/assets/60d171ea-dee7-4e62-9392-2ab9be6a8fc6" controls></video>
-
-#### 2-18 · 评审在看什么 · 12s
-
-<video src="https://github.com/user-attachments/assets/39c98a2f-54e5-4d3b-9f77-744648a8e9d4" controls></video>
-
+如果某个播放器停在 0:00，请强制刷新（⌘⇧R / Ctrl+F5）。28 段片段也全部列在 [issue #1](https://github.com/Planet-300894/Agentic-City/issues/1)。
 
 ### 系统介绍 · 10 章 · 3:20
 
 #### 1-01 · Agentic City 是什么 · 14s
 
-<video src="https://github.com/user-attachments/assets/ded8ed8c-3212-46cf-bd18-8275794b2629" controls></video>
+https://github.com/user-attachments/assets/ded8ed8c-3212-46cf-bd18-8275794b2629
 
 #### 1-02 · 规划范围与底图 · 25s
 
-<video src="https://github.com/user-attachments/assets/6ef553c3-e635-4c7a-a720-efbef2c6409b" controls></video>
+https://github.com/user-attachments/assets/6ef553c3-e635-4c7a-a720-efbef2c6409b
 
 #### 1-03 · 2D 地图：用途、限制、可建范围 · 23s
 
-<video src="https://github.com/user-attachments/assets/3cd989f6-6122-4a4d-be83-97543766e252" controls></video>
+https://github.com/user-attachments/assets/3cd989f6-6122-4a4d-be83-97543766e252
 
 #### 1-05 · 3D 城市与方案同步 · 21s
 
-<video src="https://github.com/user-attachments/assets/2dbbbefb-eeb0-4987-a8ed-ac5235e55dbf" controls></video>
+https://github.com/user-attachments/assets/2dbbbefb-eeb0-4987-a8ed-ac5235e55dbf
 
 #### 1-06 · 规划助手 · 20s
 
-<video src="https://github.com/user-attachments/assets/57fd1574-6344-4273-bbce-39d6ee19b159" controls></video>
+https://github.com/user-attachments/assets/57fd1574-6344-4273-bbce-39d6ee19b159
 
 #### 1-07 · 花钱必须确认 · 18s
 
-<video src="https://github.com/user-attachments/assets/124c3349-551d-436c-bb9c-53f6156b3dae" controls></video>
+https://github.com/user-attachments/assets/124c3349-551d-436c-bb9c-53f6156b3dae
 
 #### 1-08 · 政策工作台 · 18s
 
-<video src="https://github.com/user-attachments/assets/2bdca1f1-b9a1-4977-b794-dfca78e90184" controls></video>
+https://github.com/user-attachments/assets/2bdca1f1-b9a1-4977-b794-dfca78e90184
 
 #### 1-09 · 七类评估 · 26s
 
-<video src="https://github.com/user-attachments/assets/9cf7e4fd-f529-4b61-ab66-7492f9098270" controls></video>
+https://github.com/user-attachments/assets/9cf7e4fd-f529-4b61-ab66-7492f9098270
 
 #### 1-10 · 模型设置：接入你自己的 agent · 21s
 
-<video src="https://github.com/user-attachments/assets/2d53bf7f-ccaf-4aae-8a2d-1439da6d6866" controls></video>
+https://github.com/user-attachments/assets/2d53bf7f-ccaf-4aae-8a2d-1439da6d6866
 
 #### 1-11 · 平台把什么连在一起 · 14s
 
-<video src="https://github.com/user-attachments/assets/fdcd4398-cdf5-4398-82ee-fbd42b7fdfba" controls></video>
+https://github.com/user-attachments/assets/fdcd4398-cdf5-4398-82ee-fbd42b7fdfba
 
+### 参赛流程 · 18 章 · 5:47
 
+#### 2-01 · 2035 年的赛题 · 22s
+
+https://github.com/user-attachments/assets/d7d17ee5-c8a5-4a43-9e4d-c4281c0c76f1
+
+#### 2-02 · 读材料、定目标 · 19s
+
+https://github.com/user-attachments/assets/05b271d1-22c8-4a5c-870c-7fdc3acaf1d6
+
+#### 2-03 · 消防站选址与造价 · 27s
+
+https://github.com/user-attachments/assets/e35b8ee5-d53e-48d8-8995-663f57d42597
+
+#### 2-04 · 自评：4.92 分钟 · 15s
+
+https://github.com/user-attachments/assets/0163afd4-1691-4b67-a14e-2e3e63568382
+
+#### 2-05 · 增修道路：3.44 分钟 · 19s
+
+https://github.com/user-attachments/assets/fbaea29a-2e6e-47b3-8e72-b945203182eb
+
+#### 2-06 · 住宅选址 · 18s
+
+https://github.com/user-attachments/assets/e8ced3fb-a728-4e58-b5fc-99380aa974e7
+
+#### 2-07 · 拆迁与填塘 · 22s
+
+https://github.com/user-attachments/assets/94178e65-3f53-4a41-b99b-be9c47dc97a0
+
+#### 2-08 · 六栋住宅，46,576 人 · 24s
+
+https://github.com/user-attachments/assets/b0e7aa94-b2c4-4dbd-84d8-7d1634c60ada
+
+#### 2-09 · 配套政策 · 17s
+
+https://github.com/user-attachments/assets/35b2c12d-f6bf-4442-ab89-5db7aea21527
+
+#### 2-10 · 其他评估维度 · 18s
+
+https://github.com/user-attachments/assets/bed2ee5c-1f4b-402c-9430-7cb129343e2c
+
+#### 2-11 · 提交前自检 · 18s
+
+https://github.com/user-attachments/assets/f472235c-ed1d-4a44-925c-3be4b6e62775
+
+#### 2-12 · 提交物：空间包 · 30s
+
+https://github.com/user-attachments/assets/673028df-ec84-4053-b17c-e6459f4d4e6a
+
+#### 2-13 · 提交物：政策文件 · 16s
+
+https://github.com/user-attachments/assets/2f830640-11d7-41ae-83ef-c408755e785a
+
+#### 2-14 · 组委会校验 · 15s
+
+https://github.com/user-attachments/assets/cdf07d23-b10a-48bb-9915-57716eced035
+
+#### 2-15 · 引入经济世界模型 · 12s
+
+https://github.com/user-attachments/assets/42312dd2-1b4a-4ca3-b07c-c57defa2fa82
+
+#### 2-16 · 方案变成可运行环境 · 23s
+
+https://github.com/user-attachments/assets/55df9a5b-fb8e-42fa-97b4-afc0586e88ec
+
+#### 2-17 · 空间与政策如何塑造选择 · 24s
+
+https://github.com/user-attachments/assets/60d171ea-dee7-4e62-9392-2ab9be6a8fc6
+
+#### 2-18 · 评审在看什么 · 12s
+
+https://github.com/user-attachments/assets/39c98a2f-54e5-4d3b-9f77-744648a8e9d4
 ## 演示验证了什么
 
 | 场景 | 参赛者做什么 | 城市如何回应 |
