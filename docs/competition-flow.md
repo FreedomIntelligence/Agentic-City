@@ -64,6 +64,6 @@ Final ranking combines simulated indicators, agent satisfaction and expert revie
 
 ## What the demo shows of this
 
-The studio's guided scenarios are a compressed, honest walk through stages 2 and 3: intent → proposal → price → approval → build → re-assessment. The **Competition guide** page and `demo-2.mp4` carry stages 1, 4 and 5.
+The studio's guided scenarios are a compressed, honest walk through stages 2 and 3: intent → proposal → price → approval → build → re-assessment. The **Competition guide** page and the *Competition workflow* film ([chapters 2-01 to 2-18](chapters.md)) carry stages 1, 4 and 5.
 
-Stage 5 itself is not executed in this build — see [Scope and honesty](../README.md#scope-and-honesty).
+Stage 5 itself is not executed in this build — see [Scope](../README.md#scope).
