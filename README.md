@@ -21,7 +21,7 @@ Agentic City is the planning platform behind the **Agentic City Global Challenge
 
 Two films, cut into chapters. Every clip plays inline — pick the question you care about.
 
-If a player sits at 0:00, hard-refresh the page (⌘⇧R / Ctrl+F5): GitHub caches rendered READMEs, and a stale copy points at video sources that no longer exist.
+If a player sits at 0:00, hard-refresh the page (⌘⇧R / Ctrl+F5): GitHub caches rendered READMEs, and a stale copy points at video sources that no longer exist. Every clip is also listed in [issue #1](https://github.com/Planet-300894/Agentic-City/issues/1), where each one opens directly.
 
 ### Competition workflow · 18 chapters · 5:47
 
