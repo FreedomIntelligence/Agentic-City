@@ -21,6 +21,8 @@ Agentic City 是 **Agentic City 全球挑战赛**的规划平台。参赛者以"
 
 两部影片按章节切开，每段都在页面内直接播放——挑你关心的问题看。
 
+如果某个播放器停在 0:00，请强制刷新（⌘⇧R / Ctrl+F5）：GitHub 会缓存 README 的渲染结果，旧缓存指向的视频地址可能已经失效。
+
 ### 参赛流程 · 18 章 · 5:47
 
 #### 2-01 · 2035 年的赛题 · 22s
@@ -98,9 +100,6 @@ Agentic City 是 **Agentic City 全球挑战赛**的规划平台。参赛者以"
 
 ### 系统介绍 · 10 章 · 3:20
 
-<details>
-<summary>展开 10 段系统介绍</summary>
-
 #### 1-01 · Agentic City 是什么 · 14s
 
 <video src="https://github.com/user-attachments/assets/ded8ed8c-3212-46cf-bd18-8275794b2629" controls></video>
@@ -141,8 +140,6 @@ Agentic City 是 **Agentic City 全球挑战赛**的规划平台。参赛者以"
 
 <video src="https://github.com/user-attachments/assets/fdcd4398-cdf5-4398-82ee-fbd42b7fdfba" controls></video>
 
-
-</details>
 
 ## 演示验证了什么
 
