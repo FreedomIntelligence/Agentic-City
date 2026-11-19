@@ -1,0 +1,87 @@
+1
+00:00:01,000 --> 00:00:03,527
+Most city plans end as a picture.
+
+2
+00:00:05,000 --> 00:00:08,836
+You can look at it. You can't ask it anything.
+
+3
+00:00:10,600 --> 00:00:13,303
+Agentic City starts somewhere else.
+
+4
+00:00:14,900 --> 00:00:17,420
+Here, the city is a state machine.
+
+5
+00:00:17,500 --> 00:00:21,280
+24.3 square kilometres of Hong Kong's Northern Metropolis:
+
+6
+00:00:21,280 --> 00:00:25,384
+every zone, building, road and pond is machine-readable.
+
+7
+00:00:26,300 --> 00:00:30,355
+Every operation is checked, priced, and can be undone.
+
+8
+00:00:31,700 --> 00:00:33,540
+You say what you want.
+
+9
+00:00:33,540 --> 00:00:37,720
+The planning agent turns it into a concrete proposal, with a price.
+
+10
+00:00:37,800 --> 00:00:39,600
+Then it stops.
+
+11
+00:00:40,200 --> 00:00:42,782
+Nothing is built until you approve.
+
+12
+00:00:44,400 --> 00:00:49,802
+Approve, and the budget moves, the map changes, and the 3D city follows.
+
+13
+00:00:50,900 --> 00:00:52,700
+Then you measure.
+
+14
+00:00:52,700 --> 00:00:55,200
+One short road, and the average drive to an emergency
+
+15
+00:00:55,200 --> 00:00:59,488
+drops from 4.92 minutes to 3.44.
+
+16
+00:01:02,900 --> 00:01:05,700
+And the finished plan is not a slide.
+
+17
+00:01:05,700 --> 00:01:08,020
+It is two machine-readable files,
+
+18
+00:01:08,100 --> 00:01:10,400
+built to be loaded into an Economic World Model,
+
+19
+00:01:10,400 --> 00:01:13,440
+where households, firms and investors will move in,
+
+20
+00:01:13,440 --> 00:01:15,849
+and live with your decisions.
+
+21
+00:01:19,600 --> 00:01:23,932
+One agent helps you plan the city. The others live in it.
+
+22
+00:01:26,400 --> 00:01:31,429
+Agentic City 2035. A plan you can run.

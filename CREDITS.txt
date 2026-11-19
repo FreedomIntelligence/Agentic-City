@@ -1,0 +1,28 @@
+Agentic City 2035 - project site
+https://freedomintelligence.github.io/Agentic-City/
+
+This site is a showcase, not a release. The platform's source code, city data and compiled model are not published.
+(c) 2026 Jing Qian. All rights reserved. See NOTICE in https://github.com/FreedomIntelligence/Agentic-City
+
+WHAT IS ON THE PAGE
+- The words: from the repository's README and docs.
+- The 28 chapter clips: streamed from the repository's own attachments on GitHub (issue #1). They are not copied here.
+- Stills of the studio (assets/media/demo, assets/media/chapters): frames of those clips.
+- The idea film "A Plan You Can Run" (assets/media/a-plan-you-can-run.*.mp4): made for this site from the same recordings.
+  Narration: Microsoft Edge online text-to-speech (en-GB-RyanNeural, zh-CN-YunyangNeural); check Microsoft's terms before
+  commercial use. Music: original; samples from the Versilian Community Sample Library (CC0 1.0).
+- The 3D model at the top of the page and the plan in the film: derived from the one poster frame the repository publishes
+  (assets/media/plate.webp, assets/data/city.json). Stylised screen-space graphics: not the city dataset.
+  The traffic drawn on it is an ILLUSTRATION along roads traced from that frame. It is not simulation output.
+- The approval replay: the demo's guided fire-services scenario, with the demo's own instructions, prices and travel times.
+- The policies.yaml example: abridged from https://challenge.economic-world-model.com/agentic-city.html
+
+MAP DATA SEEN IN THE STUDIO
+Compiled, as the repository states, from official Hong Kong mapping and water data (iB1000), OpenStreetMap road and transit
+networks ((c) OpenStreetMap contributors, ODbL) and public building and land-use records.
+
+THIRD-PARTY SOFTWARE AND FONTS
+- three.js r170, (c) 2010-2024 three.js authors, MIT License (assets/vendor/three.LICENSE.txt)
+- Inter and Inter Tight by Rasmus Andersson, JetBrains Mono by the JetBrains Mono Project Authors:
+  SIL Open Font License 1.1 (https://openfontlicense.org). Latin subsets, self-hosted in assets/fonts.
+No analytics, no cookies, no third-party requests except the chapter clips (github.com) when you press play.

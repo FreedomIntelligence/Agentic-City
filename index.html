@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agentic City 2035 · A city plan you can run</title>
+<meta name="description" content="Agentic City is an agent-native planning studio for Hong Kong's Northern Metropolis: a city plan is built, priced, checked and submitted, then made to be run with simulated residents living in it.">
+<meta name="theme-color" content="#08090c">
+<link rel="canonical" href="https://freedomintelligence.github.io/Agentic-City/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Agentic City 2035 · A city plan you can run">
+<meta property="og:description" content="An agent-native planning studio for Hong Kong's Northern Metropolis. The agent proposes, a human approves, and the finished plan is built to be run.">
+<meta property="og:url" content="https://freedomintelligence.github.io/Agentic-City/">
+<meta property="og:image" content="https://freedomintelligence.github.io/Agentic-City/assets/media/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/media/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-tight-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<a class="skip" href="#idea">Skip to content</a>
+<div class="stage-grid" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><i></i></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Agentic City 2035, back to top">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="mk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9FD6B9"/><stop offset="1" stop-color="#A893EA"/></linearGradient></defs><path fill="url(#mk)" fill-rule="evenodd" transform="rotate(-8 16 16)" d="M10.5 3h11A7.5 7.5 0 0 1 29 10.5v11a7.5 7.5 0 0 1-7.5 7.5h-11A7.5 7.5 0 0 1 3 21.500v-11A7.5 7.5 0 0 1 10.500 3Zm.8 5.300a3 3 0 0 0-3 3v9.400a3 3 0 0 0 3 3h9.400a3 3 0 0 0 3-3v-9.400a3 3 0 0 0-3-3Z"/></svg>
+    <span class="word"><b>AGENTIC</b> CITY <i>2035</i></span>
+  </a>
+  <nav class="links" aria-label="Sections">
+    <a href="#idea" data-zh="理念">Idea</a>
+    <a href="#film" data-zh="影片">Film</a>
+    <a href="#contract" data-zh="确认">Approve</a>
+    <a href="#watch" data-zh="工作台">Studio</a>
+    <a href="#architecture" data-zh="架构">Architecture</a>
+    <a href="#scope" data-zh="范围">Scope</a>
+    <a href="#roadmap" data-zh="路线图">Roadmap</a>
+    <a href="#challenge" data-zh="挑战赛">Challenge</a>
+  </nav>
+  <div class="nav-end">
+    <a class="gh" href="https://github.com/FreedomIntelligence/Agentic-City" target="_blank" rel="noopener" aria-label="GitHub repository">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0a8 8 0 0 0-2.530 15.590c.4.070.550-.170.550-.380v-1.340c-2.230.490-2.700-1.070-2.700-1.070-.360-.920-.890-1.170-.890-1.170-.730-.500.060-.490.060-.490.800.060 1.230.830 1.230.830.710 1.220 1.870.870 2.330.660.070-.520.280-.870.510-1.070-1.780-.200-3.640-.890-3.640-3.950 0-.870.310-1.590.820-2.150-.080-.200-.360-1.020.080-2.120 0 0 .670-.210 2.200.820a7.660 7.660 0 0 1 4 0c1.530-1.040 2.200-.820 2.200-.820.440 1.100.160 1.920.080 2.120.510.560.820 1.270.820 2.150 0 3.070-1.870 3.750-3.650 3.950.290.250.540.730.540 1.480v2.190c0 .210.150.460.550.380A8 8 0 0 0 8 0Z"/></svg>
+      <span>GitHub</span>
+    </a>
+    <button class="lang" id="lang" type="button" aria-label="切换到中文 / Switch language"><span data-zh="EN">中文</span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ════════════ HERO ════════════ -->
+<section class="hero" id="hero">
+  <canvas id="city" aria-hidden="true"></canvas>
+  <div class="hero-fallback" aria-hidden="true"></div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="places" id="places" aria-hidden="true">
+    <span data-x="800" data-y="150" data-zh="落马洲河套">The Loop</span>
+    <span data-x="330" data-y="520" data-zh="米埔">Mai Po</span>
+    <span data-x="700" data-y="560" data-zh="新田">San Tin</span>
+    <span data-x="130" data-y="980" data-zh="锦绣花园">Fairview Park</span>
+    <span data-x="560" data-y="1040" data-zh="牛潭尾">Ngau Tam Mei</span>
+  </div>
+  <div class="wrap hero-inner">
+    <a class="chip rise" href="https://challenge.economic-world-model.com/agentic-city.html" target="_blank" rel="noopener">
+      <i class="dot"></i><span data-zh="Economic World Model Challenge · Track 3 · 2026 年 12 月开启">Track 3 · Economic World Model Challenge · opens December 2026</span><b aria-hidden="true">↗</b>
+    </a>
+    <h1 class="rise d1" data-zh="一份能<em>运行</em>的<br>城市方案">A city plan<br>you can <em>run</em>.</h1>
+    <p class="lede rise d2" data-zh="Agentic City 是面向香港北部都会区的 agent 原生规划工作台。城市方案在这里被建造、计价、校验和提交，而不是画在幻灯片上。">Agentic City is an agent-native planning studio for Hong Kong's Northern Metropolis. A plan is built, priced, checked and submitted here, not drawn on a slide.</p>
+    <div class="cta rise d3">
+      <a class="btn primary" href="#film" data-play><svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M4 2.500v11l9-5.500z"/></svg><span data-zh="观看影片">Watch the film</span><small>1:34</small></a>
+      <a class="btn" href="https://challenge.economic-world-model.com/demo/agentic-city/" target="_blank" rel="noopener"><span data-zh="体验在线 Demo">Try the live demo</span> ↗</a>
+      <a class="btn ghost" href="#contract"><span data-zh="先试试“确认”这一步">Try the approval step</span> ↓</a>
+    </div>
+    <dl class="stats rise d4">
+      <div><dt data-zh="规划范围">planning area</dt><dd><span data-count="24.3" data-dec="1">24.3</span> km²</dd></div>
+      <div><dt data-zh="规划分区">planning zones</dt><dd><span data-count="289">289</span></dd></div>
+      <div><dt data-zh="现状建筑">existing buildings</dt><dd><span data-count="20924">20,924</span></dd></div>
+      <div><dt data-zh="固定预算">fixed budget</dt><dd data-zh="100 <small>亿港元</small>">HK$ 10 <small>bn</small></dd></div>
+      <div><dt data-zh="目标年份">target year</dt><dd>2035</dd></div>
+    </dl>
+  </div>
+  <p class="hero-note" data-zh="实时示意，取材自仓库公开的规划图；图上的车流不是模拟结果。">Live illustration drawn from the published plan. The traffic is not simulation output.</p>
+  <a class="scroll-cue" href="#idea" aria-label="Scroll to the idea"><i></i></a>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="track">
+  <span>checked</span><span>priced</span><span>versioned</span><span>undoable</span><span>approved by a human</span><span>machine-readable</span><span>built to be run</span>
+  <span>checked</span><span>priced</span><span>versioned</span><span>undoable</span><span>approved by a human</span><span>machine-readable</span><span>built to be run</span>
+</div></div>
+
+<!-- ════════════ 01 IDEA ════════════ -->
+<section class="block" id="idea">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="tag">01 / <span data-zh="理念">THE IDEA</span></p>
+      <h2 data-zh="四个要点">The idea in four lines.</h2>
+    </header>
+    <ol class="ideas">
+      <li class="idea reveal">
+        <span class="n">01</span>
+        <div class="viz viz-records" aria-hidden="true"><b>Z6-150</b><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <h3 data-zh="城市是状态机，<span>不是一张图。</span>">The city is a state machine, <span>not a picture.</span></h3>
+        <p data-zh="分区、允许用途、可建范围、拆迁与填塘规则、路网、容量与造价全部机器可读。每次操作都经过校验、计价、留版本、可撤销；2D 与 3D 是同一份方案的两个视图。">Zoning, permitted uses, buildable land, demolition and pond-filling rules, the road graph, capacity and prices are machine-readable. Every operation is checked, priced, versioned and undoable, and the 2D plan and 3D city are two views of one plan.</p>
+      </li>
+      <li class="idea reveal">
+        <span class="n">02</span>
+        <div class="viz viz-approve" aria-hidden="true"><small>APPROVAL REQUIRED</small><b>HK$ 270,000,000.00</b><u>Confirm &amp; execute</u></div>
+        <h3 data-zh="Agent 是同事，<span>不是聊天框。</span>">The agent is a colleague, <span>not a chat box.</span></h3>
+        <p data-zh="你说意图，助手给出具体方案和价格，然后停下。你不确认，它不动工。花钱，就是“对话”与“后果”的分界线。">You describe an intent; the assistant turns it into a concrete proposal and its cost, then stops. Nothing is built until you approve it. Spending is the boundary between conversation and consequence.</p>
+      </li>
+      <li class="idea reveal">
+        <span class="n">03</span>
+        <div class="viz viz-files" aria-hidden="true"><code>spatial_plan.zip</code><code>policies.yaml</code><em>EWM</em></div>
+        <h3 data-zh="方案是要<span>被运行的。</span>">The plan is meant <span>to be run.</span></h3>
+        <p data-zh="提交物机器可读，组委会把它灌进经济世界模型，让家庭、企业、投资者与服务机构在里面生活。">A submission is machine-readable, and the committee loads it into an Economic World Model where households, firms, investors and service organisations live inside it.</p>
+      </li>
+      <li class="idea reveal">
+        <span class="n">04</span>
+        <div class="viz viz-two" aria-hidden="true"><b></b><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <h3 data-zh="两个<span>不同的 agent。</span>">Two <span>different agents.</span></h3>
+        <p data-zh="<em>规划 agent</em> 帮你操作城市；<em>城市 agent</em> 住在城市里。前者让工具可用，后者才让城市“agentic”。">The <em>planning agent</em> helps you operate the city. The <em>city agent</em> lives in it. The first makes the tool usable; the second is what makes the city agentic.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ════════════ 02 FILM ════════════ -->
+<section class="block" id="film">
+  <div class="wrap">
+    <header class="sec-head split reveal">
+      <div>
+        <p class="tag">02 / <span data-zh="影片">THE FILM</span></p>
+        <h2 data-zh="94 秒，讲清理念">The idea, in 94 seconds.</h2>
+      </div>
+      <p data-zh="一支用项目自己的录屏剪成的短片：为什么方案应该是一台机器，为什么 Agent 在花钱之前要停下，以及“运行一份城市方案”到底是什么意思。">A short film cut from the project's own recordings: why a plan should be a machine, why the agent stops before it spends, and what it means to run a city plan.</p>
+    </header>
+    <figure class="player reveal" id="player">
+      <div class="screen">
+        <video id="film-video" playsinline preload="none" poster="assets/media/film-poster.en.jpg" aria-label="A Plan You Can Run, the Agentic City idea film"></video>
+        <button class="bigplay" id="film-play" type="button" aria-label="Play the film">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M4.500 2.500v11l9-5.500z"/></svg>
+        </button>
+      </div>
+      <figcaption>
+        <div class="voices" role="group" aria-label="Narration language">
+          <button type="button" data-voice="en" class="on">English narration</button>
+          <button type="button" data-voice="zh">中文旁白</button>
+        </div>
+        <ol class="beats" id="beats">
+          <li><button type="button" data-t="0"><b>0:00</b><span data-zh="一张没法提问的图">A picture you can't ask</span></button></li>
+          <li><button type="button" data-t="14.4"><b>0:14</b><span data-zh="城市是一台状态机">The city as a state machine</span></button></li>
+          <li><button type="button" data-t="31.2"><b>0:31</b><span data-zh="Agent 给出方案和价格">The agent proposes, with a price</span></button></li>
+          <li><button type="button" data-t="38.4"><b>0:38</b><span data-zh="然后它停下">Then it stops</span></button></li>
+          <li><button type="button" data-t="43.2"><b>0:43</b><span data-zh="你确认">You approve</span></button></li>
+          <li><button type="button" data-t="55.2"><b>0:55</b><span>4.92 → 3.44 min</span></button></li>
+          <li><button type="button" data-t="62.4"><b>1:02</b><span data-zh="两份文件，然后运行">Two files, and then it runs</span></button></li>
+        </ol>
+        <p class="fine"><span data-zh="1 分 34 秒 · 中英两版旁白，字幕已烧入画面 · 字幕文件：">1:34 · narrated in English or Chinese, captions in the picture · subtitle files:</span> <a href="assets/media/a-plan-you-can-run.en.srt" download>EN .srt</a> · <a href="assets/media/a-plan-you-can-run.zh.srt" download>中文 .srt</a></p>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ════════════ 03 CONTRACT ════════════ -->
+<section class="block" id="contract">
+  <div class="wrap">
+    <header class="sec-head split reveal">
+      <div>
+        <p class="tag">03 / <span data-zh="契约">THE CONTRACT</span></p>
+        <h2 data-zh="你不确认，<br>它不动工。">Nothing is built<br>until you approve.</h2>
+      </div>
+      <p data-zh="Agent 提案，人来确认，内核执行。整个产品都建立在这条契约上，这也是大模型之所以能被授予“改动一座城市”权限的原因。下面是演示里消防场景的原样回放，由你来点那一下。">The agent proposes, the human approves, the core executes. The whole product rests on that contract, and it is why a language model can be given write access to a city at all. Below is the demo's fire-services scenario, replayed as it was recorded. The click is yours.</p>
+    </header>
+
+    <div class="studio reveal" id="replay">
+      <div class="st-bar">
+        <span class="st-title"><i></i>Agentic City · Planning studio</span>
+        <span class="st-rev" id="rp-rev">Saved revision 0</span>
+        <div class="st-budget"><small>AVAILABLE PLANNING BUDGET</small><b id="rp-budget">HK$ 10,000,000,000.00</b><u><i id="rp-bar"></i></u></div>
+      </div>
+      <div class="st-body">
+        <div class="st-map">
+          <div class="st-maphead"><b>2D planning map</b><span>Land, buildings and transport connections</span></div>
+          <div class="st-canvas" id="rp-map">
+            <img data-state="district" src="assets/media/demo/district.webp" alt="The planning district, as shown on the studio's 2D map" class="on" width="768" height="476">
+            <img data-state="proposed" src="assets/media/demo/proposed.webp" alt="Zone Z6-150 with a proposed fire station outlined" loading="lazy" width="768" height="476">
+            <img data-state="built" src="assets/media/demo/built.webp" alt="Zone Z6-150 with fire station 1 built" loading="lazy" width="768" height="476">
+            <img data-state="assessed" src="assets/media/demo/assessed.webp" alt="The district with the new fire stations labelled" loading="lazy" width="768" height="476">
+            <img data-state="road-proposed" src="assets/media/demo/road-proposed.webp" alt="A proposed 146 metre access road, dashed" loading="lazy" width="768" height="476">
+            <img data-state="road-built" src="assets/media/demo/road-built.webp" alt="The 146 metre access road, built" loading="lazy" width="768" height="476">
+          </div>
+          <div class="st-step" id="rp-step">Fire services · Step 1 of 4 · Build three stations</div>
+        </div>
+        <div class="st-agent">
+          <div class="ag-head"><span class="spark" aria-hidden="true">✦</span><div><b>Planning Agent</b><small>CITY DATA · RULES · TOOLS</small></div><i class="ready" aria-hidden="true"></i></div>
+          <div class="ag-chat" id="rp-chat" aria-live="polite"></div>
+          <div class="ag-compose">
+            <p id="rp-next"></p>
+            <button type="button" id="rp-send" aria-label="Send the instruction">↑</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="fine center reveal"><span data-zh="这是演示中消防引导场景的回放，指令、价格与行程时间都出自演示本身；工作台界面是英文的，这里保持原样。想亲手操作真实工作台：">A replay of the demo's guided fire-services scenario: the instructions, prices and travel times are the demo's own. To drive the real studio:</span> <a href="https://challenge.economic-world-model.com/demo/agentic-city/" target="_blank" rel="noopener" data-zh="打开在线 Demo ↗">open the live demo ↗</a></p>
+  </div>
+</section>
+
+<!-- ════════════ 04 EVIDENCE ════════════ -->
+<section class="block" id="evidence">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="tag">04 / <span data-zh="验证">THE EVIDENCE</span></p>
+      <h2 data-zh="演示验证了什么">What the demonstration establishes.</h2>
+    </header>
+    <div class="cards three">
+      <article class="card result reveal">
+        <p class="k" data-zh="消防服务">Fire services</p>
+        <p class="big"><s>4.92</s><i>→</i><b>3.44</b><small data-zh="分钟">min</small></p>
+        <p class="delta" data-zh="平均出警车程 −30%">mean response −30%</p>
+        <p data-zh="指定三处合资格用地、确认造价，随后提议一条约 146 米的道路。">Names three eligible sites, approves construction, later proposes one ~146 m access road.</p>
+      </article>
+      <article class="card result reveal">
+        <p class="k" data-zh="住宅开发">Residential</p>
+        <p class="big"><b>46,576</b><small data-zh="人">residents</small></p>
+        <p class="delta" data-zh="新增 660 人的容量">+660 resident capacity</p>
+        <p data-zh="选址、拆除一栋建筑、填充一处鱼塘、建六栋住宅。">Picks a site, demolishes a building, fills a pond, builds six blocks.</p>
+      </article>
+      <article class="card result reveal">
+        <p class="k" data-zh="学校建设">School</p>
+        <p class="big"><b>450</b><small data-zh="个学位">places</small></p>
+        <p class="delta" data-zh="上学平均 9.33 分钟">9.33 min mean journey</p>
+        <p data-zh="在可建用地布局校园，分配三个住宅起点。">Sites a campus on buildable land, assigns three residential origins.</p>
+      </article>
+    </div>
+    <p class="fine reveal" data-zh="这些数字不是写死的：容量与通行时间都在真实的 V6 路网上算出来。公开演示里，它们由预先验证的脚本回放，详见<a href=&quot;#scope&quot;>范围</a>。">None of these numbers is typed in: the capacity and travel figures are computed on the actual V6 network. In the public demo they are replayed from a pre-validated script; see <a href="#scope">Scope</a>.</p>
+  </div>
+</section>
+
+<!-- ════════════ 05 LOOP ════════════ -->
+<section class="block" id="loop">
+  <div class="wrap">
+    <header class="sec-head split reveal">
+      <div>
+        <p class="tag">05 / <span data-zh="闭环">THE LOOP</span></p>
+        <h2 data-zh="规划、模拟、<br>观察、迭代">Plan, simulate,<br>observe, iterate.</h2>
+      </div>
+      <p data-zh="闭环本身就是重点。评估不是终点处的判决，而是驱动下一轮修改的信号。">The loop is the point. Assessment is not a verdict at the end; it is the signal that drives the next revision.</p>
+    </header>
+    <ol class="flow reveal" id="flow">
+      <li><b data-zh="阅读赛题">Read the brief</b><span data-zh="边界 · 用途 · 规则 · 预算">boundary · land use · rules · budget</span></li>
+      <li class="loop-a"><b data-zh="与 agent 共同规划">Plan with your agent</b><span data-zh="建筑 · 道路 · 政策">buildings · roads · policies</span></li>
+      <li class="loop-b"><b data-zh="自评">Self-assess</b><span data-zh="容量 · 可达性 · 服务 · 成本">capacity · access · services · cost</span><em data-zh="迭代">iterate</em></li>
+      <li><b data-zh="提交">Submit</b><span><code>spatial_plan.zip</code> + <code>policies.yaml</code></span></li>
+      <li><b data-zh="组委会校验">Committee checks</b><span data-zh="格式 · 一致性 · 规则 · 预算">format · consistency · rules · budget</span></li>
+      <li><b data-zh="EWM 场景模拟">EWM scenario simulation</b><span data-zh="家庭 · 企业 · 投资者 · 服务机构">households · firms · investors · services</span></li>
+      <li><b data-zh="Agent 满意度 + 专家评审">Agent satisfaction + expert review</b><span data-zh="创新 · 合理 · 可行 · 社会价值">novelty · soundness · feasibility · social value</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ════════════ 06 STUDIO / CHAPTERS ════════════ -->
+<section class="block" id="watch">
+  <div class="wrap">
+    <header class="sec-head split reveal">
+      <div>
+        <p class="tag">06 / <span data-zh="工作台">THE STUDIO</span></p>
+        <h2 data-zh="28 段工作台实录">Twenty-eight chapters of the studio at work.</h2>
+      </div>
+      <p data-zh="两部影片按章节切开，挑你关心的问题看。片段直接从 GitHub 仓库的附件播放。">Two films, cut into chapters. Pick the question you care about. The clips stream from the repository's attachments on GitHub.</p>
+    </header>
+    <div class="chapters reveal" id="chapters">
+      <div class="ch-main">
+        <div class="ch-screen">
+          <video id="ch-video" controls playsinline preload="none" aria-label="Chapter clip"></video>
+          <div class="ch-cover" id="ch-cover"><img id="ch-poster" src="assets/media/chapters/1-01.webp" alt="" width="640" height="344"><button type="button" class="bigplay small" id="ch-play" aria-label="Play this chapter"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M4.500 2.500v11l9-5.500z"/></svg></button></div>
+        </div>
+        <div class="ch-info">
+          <p class="k"><span id="ch-id">1-01</span> · <span id="ch-dur">0:14</span><span class="zh-only"> · 英文旁白</span></p>
+          <h3 id="ch-title">What Agentic City is</h3>
+          <p id="ch-text" lang="en"></p>
+          <p class="fine" id="ch-fail" hidden><span data-zh="这段没能加载。可以在 GitHub 上观看：">This clip did not load. Watch it on GitHub:</span> <a href="https://github.com/FreedomIntelligence/Agentic-City#watch-it" target="_blank" rel="noopener">README ↗</a></p>
+        </div>
+      </div>
+      <div class="ch-side">
+        <div class="ch-tabs" role="tablist">
+          <button type="button" role="tab" data-film="1" class="on"><b data-zh="系统介绍">System introduction</b><span data-zh="10 章 · 3:20">10 chapters · 3:20</span></button>
+          <button type="button" role="tab" data-film="2"><b data-zh="参赛流程">Competition workflow</b><span data-zh="18 章 · 5:47">18 chapters · 5:47</span></button>
+        </div>
+        <ol class="ch-list" id="ch-list"></ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 07 ARCHITECTURE ════════════ -->
+<section class="block" id="architecture">
+  <div class="wrap">
+    <header class="sec-head split reveal">
+      <div>
+        <p class="tag">07 / <span data-zh="架构">UNDER THE HOOD</span></p>
+        <h2 data-zh="四层结构，<br>一份共享的城市记录">Four layers on one shared city record.</h2>
+      </div>
+      <p data-zh="关键只有一条：任何东西都不存两遍。2D 方案、3D 城市、评估面板和 Agent 对话，读写的是同一份方案状态。">The property that matters is that nothing is stored twice: the 2D plan, the 3D city, the assessment panel and the agent conversation all read and write the same plan state.</p>
+    </header>
+    <div class="arch reveal">
+      <div class="stack" id="stack" aria-hidden="true">
+        <div class="slab s4" data-layer="0"><span>INTERFACE</span></div>
+        <div class="slab s3" data-layer="1"><span>AGENT</span></div>
+        <div class="slab s2" data-layer="2"><span>PLANNING CORE</span></div>
+        <div class="slab s1" data-layer="3"><span>CITY MODEL</span></div>
+      </div>
+      <ol class="layers" id="layers">
+        <li data-layer="0" class="on"><b data-zh="界面">Interface</b><span data-zh="一个工作区，六个视图：带 2D 地图与 3D 城市的规划工作台、评估面板、政策工作台、参赛指南、视频指南、模型设置。2D 与 3D 是同一个修订版本的两个视图。">One workspace, six views: the planning studio with its 2D map and 3D city, the evaluation panel, the policy workspace, the competition guide, the video guides, and model settings. 2D and 3D are two views of one revision.</span></li>
+        <li data-layer="1"><b>Agent</b><span data-zh="把意图变成具体提案，然后停下：参赛者看到要建什么、花多少钱，确认之后城市才会改变。">Turns intent into a concrete proposal, and then stops: the participant sees what will be built and what it costs, and only after approval does the city change.</span></li>
+        <li data-layer="2"><b data-zh="规划内核">Planning core</b><span data-zh="规划者真正能做的操作。每一项都对照城市模型校验并计价，价格从同一份预算里扣：建设、拆迁、土地整备、道路与政策承诺共用一本账。状态变更写成修订版本。">The operations a planner can actually perform. Each one is validated against the city model and priced, and the price comes out of a single budget shared by construction, demolition, land preparation, road building and policy commitments. State changes are written as revisions.</span></li>
+        <li data-layer="3"><b data-zh="城市模型">City model</b><span data-zh="北部都会区 24.3 平方公里片区的 2035 基线：20,924 栋现状建筑、带允许用途与限制的规划分区、地形、水体，以及可供步行、骑行、驾车与公交寻路的交通图。">The compiled 2035 baseline for a 24.3 km² slice of the Northern Metropolis: 20,924 existing buildings, planning zones with permitted uses and restrictions, terrain, water, and a routed transport graph for walking, cycling, driving and public transport.</span></li>
+      </ol>
+    </div>
+    <div class="pipe reveal" aria-label="The agent contract">
+      <span data-zh="意图">intent</span><span data-zh="对照城市模型解析">resolve against the city model</span><span data-zh="提出操作">propose operations</span><span data-zh="校验">validate</span><span data-zh="计价">price</span><span class="hot" data-zh="请求确认">request approval</span><span data-zh="执行">execute</span><span data-zh="重新评估">re-assess</span>
+    </div>
+
+    <div class="two reveal">
+      <article class="card agent-a">
+        <p class="k" data-zh="规划 agent">Planning agent</p>
+        <h3 data-zh="让工具可用">Makes the tool usable</h3>
+        <dl>
+          <div><dt data-zh="服务于">Serves</dt><dd data-zh="参赛者">the participant</dd></div>
+          <div><dt data-zh="做什么">Does</dt><dd data-zh="把意图变成经过规则校验、标好价格的提案">turns intent into a rule-checked, priced proposal</dd></div>
+          <div><dt data-zh="产出">Output</dt><dd data-zh="一项操作，等待确认">an operation, awaiting approval</dd></div>
+          <div><dt data-zh="运行在">Runs</dt><dd data-zh="工作台内">inside the studio</dd></div>
+        </dl>
+      </article>
+      <article class="card agent-b">
+        <p class="k" data-zh="城市 agent">City agent</p>
+        <h3 data-zh="让城市“agentic”">Makes the city agentic</h3>
+        <dl>
+          <div><dt data-zh="服务于">Serves</dt><dd data-zh="被模拟的城市">the simulated city</dd></div>
+          <div><dt data-zh="做什么">Does</dt><dd data-zh="住进方案里：选择住房、工作、出行、消费、投资">lives in the plan: chooses housing, work, travel, consumption, investment</dd></div>
+          <div><dt data-zh="产出">Output</dt><dd data-zh="行为，以及对这座城市的评判">behaviour, and a verdict on the city</dd></div>
+          <div><dt data-zh="运行在">Runs</dt><dd data-zh="提交之后，经济世界模型之内">inside the Economic World Model, after submission</dd></div>
+        </dl>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 08 ASSESSMENT + SUBMISSION ════════════ -->
+<section class="block" id="assessment">
+  <div class="wrap">
+    <header class="sec-head split reveal">
+      <div>
+        <p class="tag">08 / <span data-zh="评估与提交">ASSESSMENT AND SUBMISSION</span></p>
+        <h2 data-zh="七类评估，<br>两份文件">Seven perspectives.<br>Two files.</h2>
+      </div>
+      <p data-zh="自评是一件工作用具，不是最终成绩：它的用处，是让参赛者赶在组委会之前，找到自己方案的短板。最终排名综合模拟指标、Agent 满意度与专家评审。">Self-assessment is a working tool, not the final score: it exists so a participant can find the weak part of their own plan before the committee does. Final ranking combines simulated indicators, agent satisfaction and expert review.</p>
+    </header>
+    <ul class="seven reveal">
+      <li><b data-zh="居住与城市容纳">Housing &amp; city capacity</b><span data-zh="居民容量、购房／租房比例、可负担性">Resident capacity, owner/renter split, affordability</span></li>
+      <li><b data-zh="交通与可达性">Mobility &amp; accessibility</b><span data-zh="跨境、通勤、上学与购物出行时间">Cross-boundary, commuting, school and shopping travel times</span></li>
+      <li><b data-zh="公共服务容量">Public-service capacity</b><span data-zh="学位、医院床位、垃圾收运">School places, hospital beds, waste collection</span></li>
+      <li><b data-zh="安全与韧性">Safety &amp; resilience</b><span data-zh="消防与急救响应、洪涝">Fire and ambulance response, flooding</span></li>
+      <li><b data-zh="环境与气候">Environment &amp; climate</b><span data-zh="人均绿地、碳排放、绿色出行比例">Green space per capita, emissions, sustainable-mode share</span></li>
+      <li><b data-zh="经济与就业">Economy &amp; employment</b><span data-zh="企业容量与行业结构、就业、区域 GDP">Firm capacity and sector mix, jobs, regional GDP</span></li>
+      <li><b data-zh="深港交流">Hong Kong–Shenzhen exchange</b><span data-zh="经济流通值、人口流动">Economic flow, population movement</span></li>
+    </ul>
+
+    <div class="files">
+      <article class="card file reveal">
+        <span class="ext">.zip</span>
+        <h3><code>spatial_plan.zip</code></h3>
+        <ul>
+          <li><code>manifest.json</code><span data-zh="格式版本、坐标参考系、单位、规划边界、底图版本、方案 ID、目标年份 2035、成本汇总">format version, CRS, units, planning boundary, base-map version, plan ID, target year 2035, cost totals</span></li>
+          <li><code>plan.gpkg</code><span data-zh="分区功能、建筑与建筑群、交通网络（新增／删除的步行、机动车、公交线路）">zone functions, buildings and building groups, transport network (new and removed walking, vehicle, bus links)</span></li>
+          <li><code>3d/</code><span data-zh="用于展示的 3D Tiles，通过统一标识与 plan.gpkg 对应">3D Tiles for visualisation, objects matched to <code>plan.gpkg</code> by shared identifier</span></li>
+        </ul>
+      </article>
+      <article class="card file reveal">
+        <span class="ext">.yaml</span>
+        <h3><code>policies.yaml</code></h3>
+        <pre class="yaml" aria-label="Example policy"><code><b>policies</b>:
+  - <b>id</b>: <i>"P-001"</i>
+    <b>name</b>: <i>"Fire service readiness"</i>
+    <b>objectives</b>: <i>"Improve emergency access"</i>
+    <b>target_type</b>: <i>"fire_station"</i>
+    <b>eligibility</b>: [<i>"FS-01", "FS-02", "FS-03"</i>]
+    <b>target_count</b>: 3
+    <b>support_per_target_hkd</b>: 6000000
+    <b>areas</b>: [<i>"Z6-150", "Z6-129", "Z6-232"</i>]
+    <b>period</b>: <i>"2030-2035"</i></code></pre>
+        <p class="fine" data-zh="示例节选自挑战赛官网。两份文件都由系统根据参赛者的最终方案生成并校验，流程里没有演示幻灯片。">Example abridged from the challenge site. Both files are generated and validated by the system from the participant's final plan. There is no presentation deck in the pipeline.</p>
+      </article>
+    </div>
+    <p class="fine reveal"><span data-zh="工作台内按七类组织自评；最终评审的九个维度与七类场景见挑战赛页面：">The studio organises self-assessment in these seven groups; the nine evaluation dimensions and seven scenario families of the final are on the challenge page:</span> <a href="https://challenge.economic-world-model.com/agentic-city.html#evaluate" target="_blank" rel="noopener" data-zh="评估说明 ↗">Evaluation ↗</a></p>
+  </div>
+</section>
+
+<!-- ════════════ 09 SCOPE ════════════ -->
+<section class="block" id="scope">
+  <div class="wrap">
+    <header class="sec-head split reveal">
+      <div>
+        <p class="tag">09 / <span data-zh="范围">SCOPE</span></p>
+        <h2 data-zh="哪些是真的，<br>哪些是演示">What is real,<br>and what is staged.</h2>
+      </div>
+      <p data-zh="这是对目标系统的演示，值得说清哪些是真的。影片展示界面与流程，不包含实现；平台源码、城市数据与编译模型均未公开。">This is a demonstration of the intended system, and it is worth being precise about which parts are real. The films show the interface and the workflow; they do not expose the implementation. The platform's source code, city data and compiled model are not published.</p>
+    </header>
+    <div class="scope reveal">
+      <article class="real">
+        <h3><i></i><span data-zh="真实">Real</span></h3>
+        <ul>
+          <li data-zh="V6 城市模型：24.3 km²、20,924 栋现状建筑、分区、地形、水体、可寻路的路网">the V6 city model: 24.3 km², 20,924 existing buildings, zoning, terrain, water, routed network</li>
+          <li data-zh="规则校验">rule checking</li>
+          <li data-zh="操作计价">operation pricing</li>
+          <li data-zh="100 亿港元预算账本">the HK$ 10 bn ledger</li>
+          <li data-zh="先确认，后动工">approval before spend</li>
+          <li data-zh="草稿与撤销">drafts and undo</li>
+          <li data-zh="导出">export</li>
+          <li data-zh="2D / 3D 同步">2D / 3D synchronisation</li>
+        </ul>
+      </article>
+      <article class="staged">
+        <h3><i></i><span data-zh="演示">Staged</span></h3>
+        <ul>
+          <li data-zh="三个引导场景是固定、预先验证的脚本，指标数值预置">the guided scenarios are fixed, pre-validated scripts with precomputed indicator values</li>
+          <li data-zh="模型设置只是界面，没有接入真实模型">model settings is an interface without a live model connection</li>
+          <li data-zh="组委会模拟只有描述，没有执行">the committee simulation is described rather than executed</li>
+          <li data-zh="本页与影片里方案图上的车流，是示意动画">on this page and in the film, the traffic on the plan is an illustration</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 10 ROADMAP ════════════ -->
+<section class="block" id="roadmap">
+  <div class="wrap">
+    <header class="sec-head split reveal">
+      <div>
+        <p class="tag">10 / <span data-zh="路线图">ROADMAP</span></p>
+        <h2 data-zh="把脚本，<br>一步步换成真机器">From scripts<br>to real machinery.</h2>
+      </div>
+      <p data-zh="演示不是最终产品的缩水版，而是最终产品的界面契约，只是推理部分暂时由脚本代替。路线图，就是把这些脚本换成真机器的顺序。">The demo is not a cut-down version of the final product. It is the interface contract of the final product, with the reasoning replaced by scripts. The roadmap is the order in which the scripts get replaced by real machinery.</p>
+    </header>
+    <ol class="phases">
+      <li class="phase now reveal">
+        <p class="k"><span data-zh="阶段 1 · 当前">Phase 1 · now</span></p>
+        <h3 data-zh="演示">Demo</h3>
+        <p data-zh="引导场景回放固定、预先验证的步骤。城市模型、规则、计价、预算账本、容量计算与 2D/3D 同步是真的；推理是脚本，指标是预置的。">Guided scenarios replay fixed, pre-validated steps. The city model, rules, pricing, budget ledger, capacity arithmetic and 2D/3D synchronisation are real; the reasoning is scripted and the indicators are precomputed.</p>
+        <p class="exit"><b data-zh="它证明了">What it proves</b><span data-zh="一项规划决策，可以在同一个工作区里被表达为意图、被计价、被确认，并反映到城市上。">A planning decision can be expressed as an intent, priced, approved and reflected in the city within one workspace.</span></p>
+      </li>
+      <li class="phase reveal">
+        <p class="k" data-zh="阶段 2">Phase 2</p>
+        <h3 data-zh="实时规划闭环">Live planning loop</h3>
+        <p data-zh="用界面早已预设的那条闭环取代脚本：接入模型、稳定的工具接口、由修订版本重新计算指标、会说“不”、导出文件无需手工修补。">Replace the script with the loop the interface already assumes: a model connection, a stable tool surface, indicators recomputed from the revision, refusal, and exported files that need no hand-repair.</p>
+        <p class="exit"><b data-zh="验收标准">Exit criterion</b><span data-zh="一位毫无基础的参赛者，不靠预设提示词，用自然语言完成一份小方案，导出的文件通过校验。">A participant with no prior knowledge completes a small plan in natural language, with no preset prompts, and the exported files pass validation.</span></p>
+      </li>
+      <li class="phase reveal">
+        <p class="k" data-zh="阶段 3">Phase 3</p>
+        <h3 data-zh="城市 agent（EWM）">City agents (EWM)</h3>
+        <p data-zh="方案变成可运行的环境。家庭、企业、投资者、开发商与服务机构等 agent，在提交的空间与政策条件下行动；评估不再是资产的记分牌，而是对结果的观察。">The plan becomes a running environment. Household, firm, investor, developer and service agents act inside the submitted spatial and policy conditions, and the assessment stops being a scoreboard of assets and becomes an observation of outcomes.</p>
+        <p class="exit"><b data-zh="验收标准">Exit criterion</b><span data-zh="同一份方案跑两次，结果相同；两份静态容量得分相同的方案，跑出明显不同的社会结果。">The same submitted plan, run twice, produces the same result; and two plans that score identically on static capacity produce visibly different social outcomes.</span></p>
+      </li>
+      <li class="phase reveal">
+        <p class="k" data-zh="阶段 4">Phase 4</p>
+        <h3 data-zh="走向公共平台">Towards a public platform</h3>
+        <p data-zh="可复现的场景包与参考结果、人人可跑的提交校验器、优秀方案及其模拟结果的公开展廊、可复用的区域包。">Reproducible scenario packs and reference results, a submission validator anyone can run, a public gallery of strong plans with their simulated outcomes, and reusable region packs.</p>
+        <p class="exit"><b data-zh="不可退让">Must keep</b><span data-zh="可复现性。">Reproducibility.</span></p>
+      </li>
+    </ol>
+    <blockquote class="rule reveal">
+      <p data-zh="<span class='nb'>城市上发生的任何事，</span><span class='nb'>都要有<em>价格</em>、</span><span class='nb'>有<em>规则校验</em>、</span><span class='nb'>有<em>人的决定</em>。</span>">Nothing happens to the city without <em>a cost</em>, <em>a rule check</em> and <em>a human decision</em>.</p>
+      <footer data-zh="每个阶段都必须守住的那条纪律">the discipline every phase has to keep</footer>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ════════════ CHALLENGE ════════════ -->
+<section class="block cta-block" id="challenge">
+  <div class="wrap">
+    <div class="invite reveal">
+      <p class="tag"><span data-zh="挑战赛">THE CHALLENGE</span> · TRACK 3</p>
+      <h2 data-zh="为 2035 年的北部都会区，<br>做一份规划">Plan the Northern Metropolis<br>for 2035.</h2>
+      <p data-zh="参赛者以“首席规划师”身份，负责北部都会区中一片 24.3 平方公里的区域：落马洲河套、新田、牛潭尾，含米埔及锦绣花园部分范围；在 100 亿港元固定预算内，交付面向 2035 年的空间方案与政策方案。Agentic City 是 Economic World Model Challenge 第三赛道背后的那个世界，赛道于 2026 年 12 月开启。">Participants act as Chief Planner of a 24.3 km² slice of the Northern Metropolis: the Lok Ma Chau Loop, San Tin and Ngau Tam Mei, with parts of Mai Po and Fairview Park. They deliver a complete 2035 spatial plan plus a policy package inside a fixed HK$ 10,000,000,000 budget. Agentic City is the world behind Track 3 of the Economic World Model Challenge, which opens in December 2026.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://challenge.economic-world-model.com/agentic-city.html" target="_blank" rel="noopener"><span data-zh="了解第三赛道">Read about Track 3</span> ↗</a>
+        <a class="btn" href="https://challenge.economic-world-model.com/demo/agentic-city/" target="_blank" rel="noopener"><span data-zh="打开工作台 Demo">Open the studio demo</span> ↗</a>
+        <a class="btn ghost" href="https://challenge.economic-world-model.com/register.html" target="_blank" rel="noopener"><span data-zh="免费报名">Register for free</span> ↗</a>
+      </div>
+    </div>
+    <div class="credits reveal">
+      <div>
+        <h3 data-zh="主办">Organised by</h3>
+        <p data-zh="属于面向香港北部都会区的 Agentic City 全球挑战赛，由深圳河套学院与香港中文大学（深圳）主办，深圳市大数据研究院提供技术支持。">Part of the Agentic City Global Challenge for Hong Kong's Northern Metropolis, organised by Shenzhen Loop Area Institute and The Chinese University of Hong Kong, Shenzhen, with the Shenzhen Big Data Research Institute as technical partner.</p>
+      </div>
+      <div>
+        <h3 data-zh="数据">Data</h3>
+        <p data-zh="城市模型由香港官方地图与水体数据（iB1000）、OpenStreetMap 路网与公交网络（© OpenStreetMap 贡献者），以及公开建筑与土地用途记录编译而成。">City model compiled from official Hong Kong mapping and water data (iB1000), OpenStreetMap road and transit networks (© OpenStreetMap contributors), and public building and land-use records.</p>
+      </div>
+      <div>
+        <h3 data-zh="延伸阅读">Read further</h3>
+        <p><a href="https://github.com/FreedomIntelligence/Agentic-City/blob/main/docs/architecture.md" target="_blank" rel="noopener" data-zh="架构 ↗">Architecture ↗</a><br><a href="https://github.com/FreedomIntelligence/Agentic-City/blob/main/docs/competition-flow.md" target="_blank" rel="noopener" data-zh="参赛流程 ↗">Competition flow ↗</a><br><a href="https://github.com/FreedomIntelligence/Agentic-City/blob/main/docs/roadmap.md" target="_blank" rel="noopener" data-zh="路线图 ↗">Roadmap ↗</a><br><a href="https://arxiv.org/abs/2608.06020" target="_blank" rel="noopener" data-zh="经济世界模型论文 ↗">Economic World Model paper ↗</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot-word" aria-hidden="true"><b>AGENTIC</b> CITY</p>
+    <div class="foot-row">
+      <p data-zh="这个网站是展示，不是发布：平台的源码、城市数据与编译模型均未公开。">This site is a showcase, not a release: the platform's source code, city data and compiled model are not published.</p>
+      <p>© 2026 Jing Qian. <span data-zh="保留所有权利，见">All rights reserved; see</span> <a href="https://github.com/FreedomIntelligence/Agentic-City/blob/main/NOTICE" target="_blank" rel="noopener">NOTICE</a> · <a href="https://github.com/FreedomIntelligence/Agentic-City" target="_blank" rel="noopener">GitHub</a> · <a href="CREDITS.txt" data-zh="本站致谢">Site credits</a></p>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
