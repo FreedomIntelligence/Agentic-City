@@ -96,7 +96,7 @@ Agentic City 是 **Agentic City 全球挑战赛**的规划平台。参赛者以�
 |  |  |
 |---|---|
 | https://github.com/user-attachments/assets/57fd1574-6344-4273-bbce-39d6ee19b159 | https://github.com/user-attachments/assets/124c3349-551d-436c-bb9c-53f6156b3dae |
-| **1-06** · 规划助手 · 20s | **1-07** · 花钱必须确认 · 18s |
+| **1-05** · 规划助手 · 20s | **1-06** · 花钱必须确认 · 18s |
 | https://github.com/user-attachments/assets/e35b8ee5-d53e-48d8-8995-663f57d42597 | https://github.com/user-attachments/assets/fbaea29a-2e6e-47b3-8e72-b945203182eb |
 | **2-03** · 消防站选址与造价 · 27s | **2-05** · 增修道路：3.44 分钟 · 19s |
 | https://github.com/user-attachments/assets/b0e7aa94-b2c4-4dbd-84d8-7d1634c60ada | https://github.com/user-attachments/assets/55df9a5b-fb8e-42fa-97b4-afc0586e88ec |

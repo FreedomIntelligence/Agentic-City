@@ -96,7 +96,7 @@ Two films, cut into 28 chapters. Every clip plays inline. These six carry the ar
 |  |  |
 |---|---|
 | https://github.com/user-attachments/assets/57fd1574-6344-4273-bbce-39d6ee19b159 | https://github.com/user-attachments/assets/124c3349-551d-436c-bb9c-53f6156b3dae |
-| **1-06** · The planning assistant · 20s | **1-07** · Spending needs approval · 18s |
+| **1-05** · The planning assistant · 20s | **1-06** · Spending needs approval · 18s |
 | https://github.com/user-attachments/assets/e35b8ee5-d53e-48d8-8995-663f57d42597 | https://github.com/user-attachments/assets/fbaea29a-2e6e-47b3-8e72-b945203182eb |
 | **2-03** · Fire station siting and cost · 27s | **2-05** · A new road: 3.44 min · 19s |
 | https://github.com/user-attachments/assets/b0e7aa94-b2c4-4dbd-84d8-7d1634c60ada | https://github.com/user-attachments/assets/55df9a5b-fb8e-42fa-97b4-afc0586e88ec |

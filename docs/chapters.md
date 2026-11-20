@@ -15,13 +15,13 @@ What the studio is: the planning area and its baseline, the 2D map and the 3D ci
 | https://github.com/user-attachments/assets/ded8ed8c-3212-46cf-bd18-8275794b2629 | https://github.com/user-attachments/assets/6ef553c3-e635-4c7a-a720-efbef2c6409b |
 | **1-01** · What Agentic City is · 14s | **1-02** · The planning area and its baseline · 25s |
 | https://github.com/user-attachments/assets/3cd989f6-6122-4a4d-be83-97543766e252 | https://github.com/user-attachments/assets/2dbbbefb-eeb0-4987-a8ed-ac5235e55dbf |
-| **1-03** · The 2D map: uses, limits, buildable land · 23s | **1-05** · The 3D city, in sync with the plan · 21s |
+| **1-03** · The 2D map: uses, limits, buildable land · 23s | **1-04** · The 3D city, in sync with the plan · 21s |
 | https://github.com/user-attachments/assets/57fd1574-6344-4273-bbce-39d6ee19b159 | https://github.com/user-attachments/assets/124c3349-551d-436c-bb9c-53f6156b3dae |
-| **1-06** · The planning assistant · 20s | **1-07** · Spending needs approval · 18s |
+| **1-05** · The planning assistant · 20s | **1-06** · Spending needs approval · 18s |
 | https://github.com/user-attachments/assets/2bdca1f1-b9a1-4977-b794-dfca78e90184 | https://github.com/user-attachments/assets/9cf7e4fd-f529-4b61-ab66-7492f9098270 |
-| **1-08** · The policy workspace · 18s | **1-09** · Seven assessment groups · 26s |
+| **1-07** · The policy workspace · 18s | **1-08** · Seven assessment groups · 26s |
 | https://github.com/user-attachments/assets/2d53bf7f-ccaf-4aae-8a2d-1439da6d6866 | https://github.com/user-attachments/assets/fdcd4398-cdf5-4398-82ee-fbd42b7fdfba |
-| **1-10** · Model settings: bring your own agent · 21s | **1-11** · What the platform connects · 14s |
+| **1-09** · Model settings: bring your own agent · 21s | **1-10** · What the platform connects · 14s |
 
 <details>
 <summary>What is said</summary>
@@ -29,13 +29,13 @@ What the studio is: the planning area and its baseline, the 2D map and the 3D ci
 - **1-01** (0:00) Welcome to Agentic City, a city planning system for Hong Kong's Northern Metropolis. It brings city information, spatial planning, collaboration with agents, and plan assessment together in one workspace.
 - **1-02** (0:14) The current map centres on the Lok Ma Chau Loop, San Tin and Ngau Tam Mei, and includes parts of Mai Po and Fairview Park. It covers about twenty-four point three square kilometres, divided into two hundred and eighty-nine planning zones. Twenty thousand, nine hundred and twenty-four existing buildings, together with roads, water and land-use records, provide a shared starting point for participants.
 - **1-03** (0:40) The two-dimensional map brings together city records, planning constraints and transport connections. Search an area to check land uses, permitted facilities and restrictions on demolition or pond filling. Green areas show buildable land. The network connects building locations and supports walking, cycling, driving and public transport analysis.
-- **1-05** (1:03) The three-dimensional view below shows the existing city and the spatial effects of your plan. New buildings, demolitions and road changes stay in sync with the two-dimensional records. Explore different views to understand building scale, surrounding conditions and transport connections, and see how your proposals change the city.
-- **1-06** (1:24) The planning assistant lets you work with the city through natural language. Describe a planning goal, specify an area, set building requirements, or ask about city records and planning restrictions. The assistant brings this information together and turns your intentions into a concrete proposal for review.
-- **1-07** (1:44) When an operation involves spending, the system presents the proposed work and its cost for approval before carrying it out. Construction, demolition, land preparation and policy commitments all draw on the same budget, making the resource implications of each decision clear.
-- **1-08** (2:02) City planning goes beyond buildings and roads. In the Policy workspace, define a policy's objectives, eligible groups, geographic scope, funding and duration. This allows housing, employment and public-service policies to work alongside the spatial plan.
-- **1-09** (2:19) Assessment is organised into seven groups: housing and city capacity; mobility and accessibility; public-service capacity; safety and resilience; environment and climate; economy and employment; and exchange between Hong Kong and Shenzhen. Use the evaluation interface or ask the planning assistant to review the relevant indicators and scenario assumptions.
-- **1-10** (2:45) In Model settings, configure your service URL and model name to bring your own model or agent framework into the planning workflow. City records, planning constraints and assessment methods provide the assistant's working context, supporting its understanding of tasks, development of proposals and use of tools.
-- **1-11** (3:05) Agentic City connects city information, planning actions and spatial outcomes. It gives participants one environment in which to explore the city, develop a plan, check its performance and present their proposals.
+- **1-04** (1:03) The three-dimensional view below shows the existing city and the spatial effects of your plan. New buildings, demolitions and road changes stay in sync with the two-dimensional records. Explore different views to understand building scale, surrounding conditions and transport connections, and see how your proposals change the city.
+- **1-05** (1:24) The planning assistant lets you work with the city through natural language. Describe a planning goal, specify an area, set building requirements, or ask about city records and planning restrictions. The assistant brings this information together and turns your intentions into a concrete proposal for review.
+- **1-06** (1:44) When an operation involves spending, the system presents the proposed work and its cost for approval before carrying it out. Construction, demolition, land preparation and policy commitments all draw on the same budget, making the resource implications of each decision clear.
+- **1-07** (2:02) City planning goes beyond buildings and roads. In the Policy workspace, define a policy's objectives, eligible groups, geographic scope, funding and duration. This allows housing, employment and public-service policies to work alongside the spatial plan.
+- **1-08** (2:19) Assessment is organised into seven groups: housing and city capacity; mobility and accessibility; public-service capacity; safety and resilience; environment and climate; economy and employment; and exchange between Hong Kong and Shenzhen. Use the evaluation interface or ask the planning assistant to review the relevant indicators and scenario assumptions.
+- **1-09** (2:45) In Model settings, configure your service URL and model name to bring your own model or agent framework into the planning workflow. City records, planning constraints and assessment methods provide the assistant's working context, supporting its understanding of tasks, development of proposals and use of tools.
+- **1-10** (3:05) Agentic City connects city information, planning actions and spatial outcomes. It gives participants one environment in which to explore the city, develop a plan, check its performance and present their proposals.
 
 </details>
 
