@@ -73,7 +73,7 @@ Agentic City 是 **Agentic City 全球挑战赛**的规划平台。参赛者以�
 </td>
 <td width="50%" valign="top">
 
-**4 · 两个不同的 agent。**
+**4 · 两种不同的 agent。**
 
 *规划 agent* 帮你操作城市；*城市 agent* 住在城市里。前者让工具可用，后者才让城市“agentic”。
 

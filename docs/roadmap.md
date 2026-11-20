@@ -4,7 +4,7 @@ The demo is not a cut-down version of the final product — it is the **interfac
 
 ## The two agents
 
-Most confusion about "agentic" planning comes from conflating two different agents that happen to share a model:
+Most confusion about "agentic" planning comes from conflating two different kinds of agent that happen to share a model:
 
 | | **Planning agent** | **City agent** |
 |---|---|---|

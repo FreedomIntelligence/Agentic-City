@@ -73,7 +73,7 @@ A submission is machine-readable, and the committee loads it into an Economic Wo
 </td>
 <td width="50%" valign="top">
 
-**4 · Two different agents.**
+**4 · Two kinds of agent.**
 
 The *planning agent* helps you operate the city. The *city agent* lives in it. The first makes the tool usable; the second is what makes the city agentic.
 

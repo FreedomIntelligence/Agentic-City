@@ -50,7 +50,7 @@ Two properties are worth noting:
 
 ## The two agents
 
-Most confusion around "agentic" planning comes from conflating two different agents that happen to share a model:
+Most confusion around "agentic" planning comes from conflating two different kinds of agent that happen to share a model:
 
 | | **Planning agent** | **City agent** |
 |---|---|---|
