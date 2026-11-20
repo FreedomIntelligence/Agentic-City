@@ -241,7 +241,7 @@ Agent 把意图变成具体提案，然后**停下**：
 
 ## 致谢
 
-属于面向香港北部都会区的 **Agentic City 全球挑战赛**，由深圳河套学院与香港中文大学（深圳）主办，深圳市大数据研究院提供技术支持。Agentic City 是 [Economic World Model Challenge 第三赛道](https://challenge.economic-world-model.com/agentic-city.html)背后的那个世界。
+属于面向香港北部都会区的 **Agentic City 全球挑战赛**，由深圳河套学院、香港中文大学（深圳）与南洋理工大学主办，深圳市大数据研究院提供技术支持。Agentic City 是 [Economic World Model Challenge 第三赛道](https://challenge.economic-world-model.com/agentic-city.html)背后的那个世界。
 
 城市模型由香港官方地图与水体数据（iB1000）、OpenStreetMap 路网与公交网络，以及公开建筑与土地用途记录编译而成。
 

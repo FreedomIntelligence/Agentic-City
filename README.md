@@ -241,7 +241,7 @@ The chapter clips are hosted as GitHub attachments in [issue #1](../../issues/1)
 
 ## Credits
 
-Part of the **Agentic City Global Challenge** for Hong Kong's Northern Metropolis, organised by Shenzhen Loop Area Institute and The Chinese University of Hong Kong, Shenzhen, with the Shenzhen Big Data Research Institute as technical partner. Agentic City is the world behind [Track 3 of the Economic World Model Challenge](https://challenge.economic-world-model.com/agentic-city.html).
+Part of the **Agentic City Global Challenge** for Hong Kong's Northern Metropolis, organised by Shenzhen Loop Area Institute, The Chinese University of Hong Kong, Shenzhen, and Nanyang Technological University, with the Shenzhen Big Data Research Institute as technical partner. Agentic City is the world behind [Track 3 of the Economic World Model Challenge](https://challenge.economic-world-model.com/agentic-city.html).
 
 City model compiled from official Hong Kong mapping and water data (iB1000), OpenStreetMap road and transit networks, and public building and land-use records.
 
